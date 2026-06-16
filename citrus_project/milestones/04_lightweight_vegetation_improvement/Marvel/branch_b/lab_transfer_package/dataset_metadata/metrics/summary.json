@@ -1,0 +1,37 @@
+{
+  "num_total": 5282,
+  "num_train": 4311,
+  "num_val": 564,
+  "num_test": 407,
+  "num_reused_existing_dense": 0,
+  "num_split_groups_total": 28,
+  "num_split_groups": {
+    "train": 22,
+    "val": 2,
+    "test": 4
+  },
+  "params": {
+    "transform_mode": "exact_lidar_parent_child_inverted",
+    "interpolation_method": "local_idw",
+    "distance_mask_px": 25,
+    "local_idw_k": 4,
+    "local_idw_power": 2.0,
+    "local_idw_max_depth_spread_m": 1.25,
+    "local_idw_max_relative_depth_spread": 0.35,
+    "enable_sparse_morph": true,
+    "sparse_morph_kernel": 3,
+    "sparse_morph_iters": 1,
+    "max_interp_depth_m": 28.0,
+    "clamp_only_interpolated": true,
+    "min_dense_fill_ratio": 0.0,
+    "max_time_delta_sec": 0.5,
+    "require_same_session": true,
+    "fallback_to_any_session": true,
+    "skip_existing": true,
+    "split_strategy": "time_block",
+    "time_block_sec": 60.0,
+    "enable_zed_depth_metrics": true,
+    "max_zed_depth_delta_sec": 0.25,
+    "zed_uint16_scale": 0.001
+  }
+}

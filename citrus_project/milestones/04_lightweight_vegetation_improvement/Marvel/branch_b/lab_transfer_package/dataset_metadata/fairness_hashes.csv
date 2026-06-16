@@ -1,0 +1,8 @@
+"relative_path","bytes","sha256"
+"citrus_project/dataset_workspace/prepared_training_dataset/splits/train_pairs.txt","878691","A5DC98ED3037A6DB8CAF9D70BC7D9B62A89696768131A4C1EC41DC6276111945"
+"citrus_project/dataset_workspace/prepared_training_dataset/splits/val_pairs.txt","115620","90ABE071030027F0BB405FA8B344D014F864EFD3CF881866EB15F4959E37EF9A"
+"citrus_project/dataset_workspace/prepared_training_dataset/splits/test_pairs.txt","82741","B51FBD05C9B25975316DB527600032C072B26D0E08A1267AB899D54AE44B016F"
+"citrus_project/dataset_workspace/prepared_training_dataset/metrics/summary.json","1037","763ECB62BDA80709790D11DFDE62528FB17D9EE3013981397D55A47EF345EA0C"
+"citrus_project/dataset_workspace/prepared_training_dataset/metrics/all_samples.csv","3783353","979574435F6619AA957871EA9F98BD1AE9151AD01AD871072FC0C01C2376AC10"
+"citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs/hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched/models/weights_13/encoder.pth","11496563","48D898EB377EC0D96B2FD883134D8EA783367432EBAAB35C191B7FBDDC4EC1F5"
+"citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs/hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched/models/weights_13/depth.pth","912583","043BD4206F9401BA334AEF24F7E95E09C95674E69A8B9B9173B6D8E4D11A114B"

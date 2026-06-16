@@ -1,0 +1,46 @@
+﻿# Heavy data/artifacts
+weights/
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.npy
+*.bag
+*.pcd
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Dataset outputs
+citrus_project/dataset_workspace/01_13B_Jackal/
+citrus_project/dataset_workspace/Calibration/
+citrus_project/dataset_workspace/ground_truth/
+citrus_project/dataset_workspace/extracted_rgbd/
+citrus_project/dataset_workspace/extracted_lidar/
+citrus_project/dataset_workspace/prepared_training_dataset/
+citrus_project/dataset_workspace/projection_alignment_audit/
+citrus_project/dataset_workspace/labresults/
+
+# Training/eval outputs
+runs/
+results/
+outputs/
+images/
+visuals/
+snapshots/
+checkpoint_sweep/visuals/
+events.out.tfevents*
+
+# Caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local env/logs
+.env
+*.log

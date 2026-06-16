@@ -1,0 +1,117 @@
+﻿$ErrorActionPreference = "Stop"
+
+$RepoRoot = "C:\Proj\lite-Mono"
+$Python = "C:\Proj\miniforge3\envs\lite-mono\python.exe"
+$RunName = "branch_g_original_prior_from_b24_b12_30ep_w005_laptop"
+$LogDir = "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs"
+$BranchDir = "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior"
+$ModelsDir = "$LogDir/$RunName/models"
+$ResultsDir = "$BranchDir/results/$RunName"
+$SweepRoot = "$ResultsDir/checkpoint_sweep"
+$ValRoot = "$SweepRoot/val"
+$TestRoot = "$SweepRoot/test_confirm"
+$SweepLog = Join-Path $RepoRoot "$SweepRoot/checkpoint_sweep.log"
+$Summarizer = "$BranchDir/summarize_checkpoint_sweep.py"
+$ReferenceWeights = "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs/branch_b_lidar_only_from_w13_b12_30ep_s001_laptop/models/weights_24"
+
+Set-Location $RepoRoot
+New-Item -ItemType Directory -Force -Path (Join-Path $RepoRoot $ValRoot) | Out-Null
+New-Item -ItemType Directory -Force -Path (Join-Path $RepoRoot $TestRoot) | Out-Null
+
+"Branch G validation sweep started $(Get-Date -Format s)" | Tee-Object -FilePath $SweepLog
+
+foreach ($i in 0..29) {
+  $Checkpoint = "weights_$i"
+  $WeightsFolder = "$ModelsDir/$Checkpoint"
+  $OutputDir = "$ValRoot/$Checkpoint"
+  $SummaryPath = Join-Path $RepoRoot "$OutputDir/val_lite-mono_full_summary.json"
+  if (-not (Test-Path (Join-Path $RepoRoot $WeightsFolder))) {
+    "Skipping missing checkpoint $Checkpoint" | Tee-Object -FilePath $SweepLog -Append
+    continue
+  }
+  if (Test-Path $SummaryPath) {
+    "Skipping existing val summary for $Checkpoint" | Tee-Object -FilePath $SweepLog -Append
+    continue
+  }
+  "Evaluating val $Checkpoint $(Get-Date -Format s)" | Tee-Object -FilePath $SweepLog -Append
+  & $Python citrus_project/milestones/01_original_lite_mono_baseline/evaluate_lite_mono_citrus.py `
+    --split val `
+    --max_samples 0 `
+    --run_model `
+    --summary_only `
+    --progress_interval 100 `
+    --weights_folder $WeightsFolder `
+    --output_dir $OutputDir 2>&1 | Tee-Object -FilePath $SweepLog -Append
+}
+
+& $Python $Summarizer `
+  --input_root $ValRoot `
+  --split val `
+  --output_csv "$SweepRoot/val_sweep_summary.csv" `
+  --output_json "$SweepRoot/val_sweep_summary.json" 2>&1 | Tee-Object -FilePath $SweepLog -Append
+
+$ValRows = Import-Csv (Join-Path $RepoRoot "$SweepRoot/val_sweep_summary.csv")
+$TopRaw = $ValRows | Sort-Object { [double]$_.raw_abs_rel }, { -[double]$_.raw_a1 } | Select-Object -First 3
+$TopMedian = $ValRows | Sort-Object { [double]$_.median_abs_rel }, { -[double]$_.median_a1 } | Select-Object -First 3
+$TestCheckpoints = @()
+$TestCheckpoints += $TopRaw.checkpoint
+$TestCheckpoints += $TopMedian.checkpoint
+$TestCheckpoints += "weights_29"
+$TestCheckpoints = $TestCheckpoints | Sort-Object -Unique
+
+"Test-confirm checkpoints: $($TestCheckpoints -join ', ')" | Tee-Object -FilePath $SweepLog -Append
+
+foreach ($Checkpoint in $TestCheckpoints) {
+  $WeightsFolder = "$ModelsDir/$Checkpoint"
+  $OutputDir = "$TestRoot/$Checkpoint"
+  $SummaryPath = Join-Path $RepoRoot "$OutputDir/test_lite-mono_full_summary.json"
+  if (Test-Path $SummaryPath) {
+    "Skipping existing test summary for $Checkpoint" | Tee-Object -FilePath $SweepLog -Append
+    continue
+  }
+  "Evaluating test $Checkpoint $(Get-Date -Format s)" | Tee-Object -FilePath $SweepLog -Append
+  & $Python citrus_project/milestones/01_original_lite_mono_baseline/evaluate_lite_mono_citrus.py `
+    --split test `
+    --max_samples 0 `
+    --run_model `
+    --summary_only `
+    --progress_interval 100 `
+    --weights_folder $WeightsFolder `
+    --output_dir $OutputDir 2>&1 | Tee-Object -FilePath $SweepLog -Append
+}
+
+& $Python $Summarizer `
+  --input_root $TestRoot `
+  --split test `
+  --output_csv "$SweepRoot/test_confirm_summary.csv" `
+  --output_json "$SweepRoot/test_confirm_summary.json" 2>&1 | Tee-Object -FilePath $SweepLog -Append
+
+$ConfirmRows = Import-Csv (Join-Path $RepoRoot "$SweepRoot/test_confirm_summary.csv")
+$BestRaw = $ConfirmRows | Sort-Object { [double]$_.raw_abs_rel }, { -[double]$_.raw_a1 } | Select-Object -First 1
+if ($BestRaw -and $BestRaw.checkpoint -and $BestRaw.checkpoint -ne "weights_29") {
+  $BestWeights = "$ModelsDir/$($BestRaw.checkpoint)"
+  foreach ($Split in @("val", "test")) {
+    & $Python citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/compare_two_checkpoints_raw_and_scaled.py `
+      --split $Split `
+      --selection_results_dir "$TestRoot/$($BestRaw.checkpoint)" `
+      --weights_a $BestWeights `
+      --weights_b "$ModelsDir/weights_29" `
+      --name_a "Branch G $($BestRaw.checkpoint)" `
+      --name_b "Branch G weights_29" `
+      --output_dir "$SweepRoot/visuals/best_raw_vs_latest_$Split" `
+      --metric median_scaled_a1 2>&1 | Tee-Object -FilePath $SweepLog -Append
+  }
+}
+
+foreach ($Split in @("val", "test")) {
+  & $Python citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/compare_phase2_visuals.py `
+    --split $Split `
+    --phase2_results_dir $ResultsDir `
+    --baseline_weights $ReferenceWeights `
+    --phase2_weights "$ModelsDir/weights_29" `
+    --output_dir "$SweepRoot/visuals/branch_b_w24_vs_branch_g_w29_$Split" `
+    --baseline_name "Branch B w24" `
+    --phase2_name "Branch G w29" 2>&1 | Tee-Object -FilePath $SweepLog -Append
+}
+
+"Branch G checkpoint sweep finished $(Get-Date -Format s)" | Tee-Object -FilePath $SweepLog -Append
