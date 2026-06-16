@@ -1,4 +1,4 @@
-# Branch B Report - LiDAR-Only Continued Training Control
+﻿# Branch B Report - LiDAR-Only Continued Training Control
 
 ## Status Snapshot
 
@@ -34,7 +34,7 @@ Next action:
 
 ```text
 Use Branch B weights_24 for raw-depth reporting, keep Branch C weights_24 and Branch B weights_29 as comparison checkpoints, and avoid claiming that RGB smoothness is beneficial unless a later branch shows clearer evidence.
-`$([Environment]::NewLine)
+```
 ## Purpose
 
 Branch B is the fair control for Branch C.
@@ -230,3 +230,4 @@ For the paper direction, frame the current gain primarily around masked LiDAR-su
 ## Reminder For Lab Work
 
 When the user says they are back at the lab, remind them to make Branch B fair by copying or reproducing the exact same local prepared dataset artifacts and starting checkpoint before training there.
+

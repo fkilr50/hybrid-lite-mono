@@ -9,10 +9,11 @@ This repo is evidence/context/code focused. It is not the complete dataset or ch
 ## Mandatory Read Order
 
 1. Read this file first.
-2. Read `citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/00_BRANCH_EXPERIMENT_SUMMARY.md`.
-3. Read the visible branch reports under `citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_*/00_BRANCH_*_REPORT.md`.
-4. Use `citrus_project/research/` notes for dataset, baseline, paper shortlist, and advisor context.
-5. Use `docs/ORIGINAL_ACTIVE_PROJECT_AGENTS.md` for the longer source-of-truth context from the original active repo at the time this repo was created.
+2. Read `docs/TRAINING_JOURNEY.md` for the chronological story of the work.
+3. Read `citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/00_BRANCH_EXPERIMENT_SUMMARY.md`.
+4. Read the visible branch reports under `citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_*/00_BRANCH_*_REPORT.md`.
+5. Use `citrus_project/research/` notes for dataset, baseline, paper shortlist, and advisor context.
+6. Use `docs/ORIGINAL_ACTIVE_PROJECT_AGENTS.md` for the longer source-of-truth context from the original active repo at the time this repo was created.
 
 ## Project Goal
 
@@ -141,4 +142,5 @@ Large artifacts are not in this repo. Do not add the following unless explicitly
 - cache folders
 
 If a paper needs images, add a small curated `figures/` folder later, not the full visual-output tree.
+
 

@@ -53,6 +53,7 @@ Branch G is the current best balance by metric results, but the visual improveme
 │       └── 04_lightweight_vegetation_improvement/
 │           └── Marvel/                # Hybrid Lite-Mono experiment branches
 ├── docs/
+│   ├── TRAINING_JOURNEY.md                 # Chronological experiment narrative
 │   ├── ORIGINAL_ACTIVE_PROJECT_AGENTS.md
 │   └── UPSTREAM_LITEMONO_README.md
 ├── train.py
@@ -64,6 +65,8 @@ Branch G is the current best balance by metric results, but the visual improveme
 ## Key Experiment Reports
 
 Start with these files for the current research status:
+
+- `docs/TRAINING_JOURNEY.md`
 
 - `citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/00_BRANCH_EXPERIMENT_SUMMARY.md`
 - `citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/00_BRANCH_B_REPORT.md`
@@ -106,4 +109,5 @@ Small curated figures can be added later for paper writing, but full generated o
 This repository is research work in progress. The current strongest result is promising by Citrus LiDAR-valid metrics, but the main open problem is still qualitative boundary sharpness and broader generalization beyond Citrus Farm.
 
 For detailed project context and collaboration notes, see `AGENTS.md`.
+
 
