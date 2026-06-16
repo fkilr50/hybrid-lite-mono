@@ -26,6 +26,8 @@ Created from local source project: `C:/Proj/lite-Mono`
 
 Current repo location: `C:/Proj/lite-mono-citrus`
 
+GitHub remote: `https://github.com/fkilr50/hybrid-lite-mono`
+
 This repo intentionally excludes large generated artifacts, datasets, and checkpoints. It preserves reports, scripts, plans, and source context needed to understand the experiment history and draft the paper.
 
 ## Current Best Result
@@ -139,3 +141,4 @@ Large artifacts are not in this repo. Do not add the following unless explicitly
 - cache folders
 
 If a paper needs images, add a small curated `figures/` folder later, not the full visual-output tree.
+
