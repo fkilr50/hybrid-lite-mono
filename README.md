@@ -52,6 +52,7 @@ Branch G is the current best balance by metric results, but the visual improveme
 │       ├── 03_self_supervised_adaptation/
 │       └── 04_lightweight_vegetation_improvement/
 │           └── Marvel/                # Hybrid Lite-Mono experiment branches
+├── model_weights/                    # Selected inference checkpoints
 ├── docs/
 │   ├── TRAINING_JOURNEY.md                 # Chronological experiment narrative
 │   ├── ORIGINAL_ACTIVE_PROJECT_AGENTS.md
@@ -92,22 +93,22 @@ The dense LiDAR labels are project-generated labels, not official Citrus Farm gr
 
 ## Artifacts Not Included
 
-This repository intentionally excludes large generated artifacts:
+This repository includes selected inference checkpoints under `model_weights/`, but intentionally excludes large generated artifacts:
 
 - Citrus Farm ROS bags
 - extracted RGB/depth/LiDAR files
 - dense label `.npz` files and valid-mask `.npz` files
-- trained model checkpoints and weights
 - TensorBoard logs
 - generated comparison images
 - large `runs/`, `results/`, `outputs/`, `images/`, and `weights/` folders
 
-Small curated figures can be added later for paper writing, but full generated output folders should stay outside git.
+Small curated figures can be added later for paper writing, but full generated output folders should stay outside git. Full epoch histories, optimizer states, and bulk training runs are intentionally excluded.
 
 ## Notes
 
 This repository is research work in progress. The current strongest result is promising by Citrus LiDAR-valid metrics, but the main open problem is still qualitative boundary sharpness and broader generalization beyond Citrus Farm.
 
 For detailed project context and collaboration notes, see `AGENTS.md`.
+
 
 

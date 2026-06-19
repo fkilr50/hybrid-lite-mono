@@ -29,7 +29,7 @@ Current repo location: `C:/Proj/lite-mono-citrus`
 
 GitHub remote: `https://github.com/fkilr50/hybrid-lite-mono`
 
-This repo intentionally excludes large generated artifacts, datasets, and checkpoints. It preserves reports, scripts, plans, and source context needed to understand the experiment history and draft the paper.
+This repo intentionally excludes datasets, full run folders, generated image dumps, optimizer states, and bulk checkpoints. It now includes selected inference checkpoints under `model_weights/` for original Lite-Mono, Branch A, Branch B, Branch C, and Branch G so teammates can run comparisons without obtaining every training artifact.
 
 ## Current Best Result
 
@@ -125,16 +125,16 @@ Ask the original workspace owner for:
 - selected visual PNG panels for Branch G versus Branch B/C
 - checkpoint sweep CSVs
 - TensorBoard scalar plots
-- the actual `encoder.pth` and `depth.pth` checkpoints for selected models
+- additional checkpoints beyond the selected `model_weights/` folders, if a new comparison requires them
 - external sanity image panels
 
 Do not request the full dataset unless retraining is needed.
 
 ## Artifact Policy
 
-Large artifacts are not in this repo. Do not add the following unless explicitly requested and reviewed:
+Large artifacts are mostly not in this repo. Selected inference `.pth` files under `model_weights/` are intentionally included. Do not add the following unless explicitly requested and reviewed:
 
-- `.pth`, `.pt`, `.ckpt`, `.npz`, `.npy`, `.bag`
+- additional `.pth`, `.pt`, `.ckpt`, `.npz`, `.npy`, `.bag` files outside `model_weights/`
 - extracted dataset folders
 - checkpoint folders
 - generated result/image-output folders
@@ -142,5 +142,7 @@ Large artifacts are not in this repo. Do not add the following unless explicitly
 - cache folders
 
 If a paper needs images, add a small curated `figures/` folder later, not the full visual-output tree.
+
+
 
 
