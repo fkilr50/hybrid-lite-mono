@@ -29,3 +29,6 @@ resume and complete all-epoch checkpoint histories are not preserved.
 
 Eight early smoke TensorBoard event files are also preserved because those runs
 had no complete scalar CSV export; large later event histories are omitted.
+
+Storage cleanup completed after remote verification. See [CLEANUP_REPORT.md](CLEANUP_REPORT.md)
+for final sizes, deletion scope and restoration limitations.

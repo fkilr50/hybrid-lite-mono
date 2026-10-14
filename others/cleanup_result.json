@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-15",
+  "backup_commit": "19afac97eb22e63a842ca5780c423f7fd5d64b6f",
+  "citrus_before_bytes": 35643402107,
+  "citrus_after_bytes": 525623967,
+  "removed_bytes": 35117778140,
+  "bundle_bytes": 851616971,
+  "net_recovered_bytes": 34266161169,
+  "remaining_citrus_files": 1299,
+  "tracked_files_deleted": 0
+}
