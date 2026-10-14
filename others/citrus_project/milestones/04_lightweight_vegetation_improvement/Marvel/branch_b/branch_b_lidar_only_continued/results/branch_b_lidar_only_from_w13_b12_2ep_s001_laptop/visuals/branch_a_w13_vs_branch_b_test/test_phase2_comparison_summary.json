@@ -1,0 +1,44 @@
+[
+  {
+    "role": "bad",
+    "index": 344,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-28-44_4_bag_1689715746858666840.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\branch_b\\branch_b_lidar_only_continued\\results\\branch_b_lidar_only_from_w13_b12_2ep_s001_laptop\\visuals\\branch_a_w13_vs_branch_b_test\\bad_index_0344_comparison.png",
+    "baseline_scale_ratio": 0.6232030770792966,
+    "phase2_scale_ratio": 0.6143765151792232,
+    "baseline_median_scaled_abs_rel": 0.44725880678374785,
+    "baseline_median_scaled_a1": 0.07256974393964752,
+    "phase2_median_scaled_abs_rel": 0.4755081476722313,
+    "phase2_median_scaled_a1": 0.04624599302238758,
+    "phase2_minus_baseline_abs_rel": 0.028249340888483465,
+    "phase2_minus_baseline_a1": -0.02632375091725994
+  },
+  {
+    "role": "typical",
+    "index": 336,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-28-44_4_bag_1689715746048081112.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\branch_b\\branch_b_lidar_only_continued\\results\\branch_b_lidar_only_from_w13_b12_2ep_s001_laptop\\visuals\\branch_a_w13_vs_branch_b_test\\typical_index_0336_comparison.png",
+    "baseline_scale_ratio": 1.0197386848815764,
+    "phase2_scale_ratio": 0.9856232259080533,
+    "baseline_median_scaled_abs_rel": 0.1467608594950384,
+    "baseline_median_scaled_a1": 0.8410379570898501,
+    "phase2_median_scaled_abs_rel": 0.13195013045672424,
+    "phase2_median_scaled_a1": 0.852078590845802,
+    "phase2_minus_baseline_abs_rel": -0.014810729038314152,
+    "phase2_minus_baseline_a1": 0.011040633755951879
+  },
+  {
+    "role": "good",
+    "index": 407,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-28-44_4_bag_1689715753147296952.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\branch_b\\branch_b_lidar_only_continued\\results\\branch_b_lidar_only_from_w13_b12_2ep_s001_laptop\\visuals\\branch_a_w13_vs_branch_b_test\\good_index_0407_comparison.png",
+    "baseline_scale_ratio": 1.0847965677275375,
+    "phase2_scale_ratio": 1.0292643708930886,
+    "baseline_median_scaled_abs_rel": 0.09668935692577081,
+    "baseline_median_scaled_a1": 0.9242253821651197,
+    "phase2_median_scaled_abs_rel": 0.08219321114261631,
+    "phase2_median_scaled_a1": 0.943791626659351,
+    "phase2_minus_baseline_abs_rel": -0.014496145783154502,
+    "phase2_minus_baseline_a1": 0.019566244494231277
+  }
+]

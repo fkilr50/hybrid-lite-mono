@@ -1,0 +1,6 @@
+parent frame: base_link (Wheel Odometry frame, located at the bottom center of the robot)
+child frame: lidar (Velodyne)
+
+# This result is measured and computed directly from CAD models of the robot and the mounting board.
+x, y, z, qx, qy, qz, qw = 0.0400, 0.0000, 0.3787, 0.0000, 0.0000, 0.0000, 1.0000
+

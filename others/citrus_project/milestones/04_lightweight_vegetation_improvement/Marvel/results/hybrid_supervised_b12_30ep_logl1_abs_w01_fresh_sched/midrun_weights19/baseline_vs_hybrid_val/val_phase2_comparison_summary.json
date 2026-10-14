@@ -1,0 +1,44 @@
+[
+  {
+    "role": "bad",
+    "index": 448,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-33-32_14_bag_1689716028358529656.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\\midrun_weights19\\baseline_vs_hybrid_val\\bad_index_0448_comparison.png",
+    "baseline_scale_ratio": 3.3020104366009577,
+    "phase2_scale_ratio": 1.3538940234125045,
+    "baseline_median_scaled_abs_rel": 0.3239870353445706,
+    "baseline_median_scaled_a1": 0.696064910355658,
+    "phase2_median_scaled_abs_rel": 0.36432096783413576,
+    "phase2_median_scaled_a1": 0.40462935931895133,
+    "phase2_minus_baseline_abs_rel": 0.04033393248956518,
+    "phase2_minus_baseline_a1": -0.29143555103670665
+  },
+  {
+    "role": "typical",
+    "index": 250,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-33-03_13_bag_1689716008555976504.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\\midrun_weights19\\baseline_vs_hybrid_val\\typical_index_0250_comparison.png",
+    "baseline_scale_ratio": 2.7202622034617683,
+    "phase2_scale_ratio": 0.9816793089408913,
+    "baseline_median_scaled_abs_rel": 0.5594459983964761,
+    "baseline_median_scaled_a1": 0.43156651683864944,
+    "phase2_median_scaled_abs_rel": 0.15608070477666194,
+    "phase2_median_scaled_a1": 0.780961537272553,
+    "phase2_minus_baseline_abs_rel": -0.4033652936198142,
+    "phase2_minus_baseline_a1": 0.3493950204339036
+  },
+  {
+    "role": "good",
+    "index": 41,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-33-03_13_bag_1689715987639898168.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\\midrun_weights19\\baseline_vs_hybrid_val\\good_index_0041_comparison.png",
+    "baseline_scale_ratio": 3.4727845323611466,
+    "phase2_scale_ratio": 0.9902557281754434,
+    "baseline_median_scaled_abs_rel": 0.1191388271489104,
+    "baseline_median_scaled_a1": 0.8849868120062047,
+    "phase2_median_scaled_abs_rel": 0.09676123193465487,
+    "phase2_median_scaled_a1": 0.8990409280484787,
+    "phase2_minus_baseline_abs_rel": -0.02237759521425553,
+    "phase2_minus_baseline_a1": 0.014054116042274023
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "role": "bad",
+    "index": 346,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-28-44_4_bag_1689715747053810456.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\phase2_boundary_loss_b12_2ep_w005\\visuals\\baseline_vs_phase2_test\\bad_index_0346_comparison.png",
+    "baseline_scale_ratio": 2.329272805076284,
+    "phase2_scale_ratio": 15.695762788166025,
+    "baseline_median_scaled_abs_rel": 0.7088518537402604,
+    "baseline_median_scaled_a1": 0.21378520574536458,
+    "phase2_median_scaled_abs_rel": 1.0688212764764375,
+    "phase2_median_scaled_a1": 0.0483307786543253,
+    "phase2_minus_baseline_abs_rel": 0.35996942273617716,
+    "phase2_minus_baseline_a1": -0.16545442709103927
+  },
+  {
+    "role": "typical",
+    "index": 223,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-31-37_10_bag_1689715920754140024.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\phase2_boundary_loss_b12_2ep_w005\\visuals\\baseline_vs_phase2_test\\typical_index_0223_comparison.png",
+    "baseline_scale_ratio": 3.209288832979231,
+    "phase2_scale_ratio": 12.655125241377277,
+    "baseline_median_scaled_abs_rel": 0.34563331318927215,
+    "baseline_median_scaled_a1": 0.70677587128761,
+    "phase2_median_scaled_abs_rel": 0.45399932840824525,
+    "phase2_median_scaled_a1": 0.40429810917221604,
+    "phase2_minus_baseline_abs_rel": 0.1083660152189731,
+    "phase2_minus_baseline_a1": -0.30247776211539396
+  },
+  {
+    "role": "good",
+    "index": 9,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-29-41_6_bag_1689715800846338328.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\phase2_boundary_loss_b12_2ep_w005\\visuals\\baseline_vs_phase2_test\\good_index_0009_comparison.png",
+    "baseline_scale_ratio": 3.4187042720570893,
+    "phase2_scale_ratio": 17.615321830452693,
+    "baseline_median_scaled_abs_rel": 0.12930285426343974,
+    "baseline_median_scaled_a1": 0.8250335112167733,
+    "phase2_median_scaled_abs_rel": 0.5177024310020343,
+    "phase2_median_scaled_a1": 0.5581521479495631,
+    "phase2_minus_baseline_abs_rel": 0.38839957673859454,
+    "phase2_minus_baseline_a1": -0.2668813632672101
+  }
+]

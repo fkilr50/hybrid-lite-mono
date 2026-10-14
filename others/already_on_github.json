@@ -1,0 +1,1094 @@
+[
+  {
+    "path": "citrus_project/dataset_workspace/audit_projection_alignment.py",
+    "bytes": 25525,
+    "remote_blob": "d7a7b4116243d157a72336e7b4e895c0a2498da7",
+    "remote_path": "citrus_project/dataset_workspace/audit_projection_alignment.py"
+  },
+  {
+    "path": "citrus_project/dataset_workspace/build_training_dataset.py",
+    "bytes": 25685,
+    "remote_blob": "0b6216218a07c92ae2c31bb9adb564e5240fc469",
+    "remote_path": "citrus_project/dataset_workspace/build_training_dataset.py"
+  },
+  {
+    "path": "citrus_project/dataset_workspace/densify_lidar.py",
+    "bytes": 35182,
+    "remote_blob": "6614c7ff9fa1fc43ef74ba1ab4607f223e4dfdef",
+    "remote_path": "citrus_project/dataset_workspace/densify_lidar.py"
+  },
+  {
+    "path": "citrus_project/dataset_workspace/download_citrusfarm_seq_01_lidar.py",
+    "bytes": 5212,
+    "remote_blob": "49943c8460d0795d1edc778ff6c97fe28786c5b6",
+    "remote_path": "citrus_project/dataset_workspace/download_citrusfarm_seq_01_lidar.py"
+  },
+  {
+    "path": "citrus_project/dataset_workspace/download_citrusfarm_seq_01_rgb_depth.py",
+    "bytes": 8726,
+    "remote_blob": "9ddcb31c26b8a652d995707f8230bf182c0ca36d",
+    "remote_path": "citrus_project/dataset_workspace/download_citrusfarm_seq_01_rgb_depth.py"
+  },
+  {
+    "path": "citrus_project/dataset_workspace/extract_left_rgbd_from_raw.py",
+    "bytes": 6725,
+    "remote_blob": "e5432ad1d567523814b367e840de6e00f789d740",
+    "remote_path": "citrus_project/dataset_workspace/extract_left_rgbd_from_raw.py"
+  },
+  {
+    "path": "citrus_project/dataset_workspace/extract_lidar_from_raw.py",
+    "bytes": 6044,
+    "remote_blob": "6a5b34430e6552537fdefcc2eb24d5baeadc5ffb",
+    "remote_path": "citrus_project/dataset_workspace/extract_lidar_from_raw.py"
+  },
+  {
+    "path": "citrus_project/dataset_workspace/README.md",
+    "bytes": 953,
+    "remote_blob": "df7e10edb998676c62fa0b38d6c0666eedf09116",
+    "remote_path": "citrus_project/dataset_workspace/README.md"
+  },
+  {
+    "path": "citrus_project/dataset_workspace/verify_lidar.py",
+    "bytes": 1700,
+    "remote_blob": "58676122ffaee76dbfb7e92ae006b4959929a39c",
+    "remote_path": "citrus_project/dataset_workspace/verify_lidar.py"
+  },
+  {
+    "path": "citrus_project/dataset_workspace/verify_rgb_depth.py",
+    "bytes": 1728,
+    "remote_blob": "e9f121c39b89d0b85dae3384b32a40c20e0ff4c6",
+    "remote_path": "citrus_project/dataset_workspace/verify_rgb_depth.py"
+  },
+  {
+    "path": "citrus_project/milestones/00_dataset_audit/README.md",
+    "bytes": 463,
+    "remote_blob": "34983200057be201e9a9bf96998e956070ca23e5",
+    "remote_path": "citrus_project/milestones/00_dataset_audit/README.md"
+  },
+  {
+    "path": "citrus_project/milestones/00_dataset_audit/sample_pack/README.md",
+    "bytes": 453,
+    "remote_blob": "4907142f719d12eb3c83c858ad3b4f46cf08c001",
+    "remote_path": "citrus_project/milestones/00_dataset_audit/sample_pack/README.md"
+  },
+  {
+    "path": "citrus_project/milestones/00_dataset_audit/sample_pack/sample_index_template.csv",
+    "bytes": 145,
+    "remote_blob": "64aafca9a2a5dd013cf385e801566da100594bb1",
+    "remote_path": "citrus_project/milestones/00_dataset_audit/sample_pack/sample_index_template.csv"
+  },
+  {
+    "path": "citrus_project/milestones/01_original_lite_mono_baseline/evaluate_lite_mono_citrus.py",
+    "bytes": 34056,
+    "remote_blob": "b5657b8e1a4681cc2decdc386dbae8addf56e7ff",
+    "remote_path": "citrus_project/milestones/01_original_lite_mono_baseline/evaluate_lite_mono_citrus.py"
+  },
+  {
+    "path": "citrus_project/milestones/01_original_lite_mono_baseline/README.md",
+    "bytes": 267,
+    "remote_blob": "7a0a97a48fa8784609ffd63d8e9f3bea16eb8335",
+    "remote_path": "citrus_project/milestones/01_original_lite_mono_baseline/README.md"
+  },
+  {
+    "path": "citrus_project/milestones/02_citrus_integration/citrus_prepared_dataset.py",
+    "bytes": 17458,
+    "remote_blob": "8467e902614d2a57b5fce9cf19f34ddba9e1e74b",
+    "remote_path": "citrus_project/milestones/02_citrus_integration/citrus_prepared_dataset.py"
+  },
+  {
+    "path": "citrus_project/milestones/02_citrus_integration/README.md",
+    "bytes": 245,
+    "remote_blob": "09a840e818997da862e92d604efaca4d6fa64a91",
+    "remote_path": "citrus_project/milestones/02_citrus_integration/README.md"
+  },
+  {
+    "path": "citrus_project/milestones/03_self_supervised_adaptation/README.md",
+    "bytes": 247,
+    "remote_blob": "cc792cbe418c1c94d2b9ee978301b64a00e588d6",
+    "remote_path": "citrus_project/milestones/03_self_supervised_adaptation/README.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/00_BRANCH_EXPERIMENT_SUMMARY.md",
+    "bytes": 11740,
+    "remote_blob": "5de0e8dc0cf6ebfe620dd873b15bdb33fdc8b35c",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/00_BRANCH_EXPERIMENT_SUMMARY.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/00_BRANCH_B_REPORT.md",
+    "bytes": 2234,
+    "remote_blob": "b5ba258398a9fabbf879f006659a98c1372084f2",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/00_BRANCH_B_REPORT.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/BRANCH_B_PREP.md",
+    "bytes": 898,
+    "remote_blob": "7d3b10492bfa26a3b242783365fc8ab224b613a0",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/BRANCH_B_PREP.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/HYBRID_SUPERVISED_CODE_NOTE.md",
+    "bytes": 4256,
+    "remote_blob": "4e1208d40ec861f1f6572bb311212d9f2182ac3e",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/HYBRID_SUPERVISED_CODE_NOTE.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/layers.py",
+    "bytes": 11424,
+    "remote_blob": "920a6c21120212d8e3d309ba1fcaf7d2a217003d",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/layers.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/options.py",
+    "bytes": 17988,
+    "remote_blob": "d7b8207f80f7e3a62ba8ca9e952b4960602d469b",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/options.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/prepare_branch_b_lab_repro_package.ps1",
+    "bytes": 6020,
+    "remote_blob": "d1259c60ec98d18fa2860e327384098279a8d210",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/prepare_branch_b_lab_repro_package.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/run_branch_b_2ep_smoke_eval_laptop.ps1",
+    "bytes": 4189,
+    "remote_blob": "d204261982643bf7b1a2405846ac1edf51b3eefb",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/run_branch_b_2ep_smoke_eval_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/run_branch_b_30ep_eval_laptop.ps1",
+    "bytes": 4194,
+    "remote_blob": "0cd293f2e0b1edf5164ed923d3110cefe4b36fda",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/run_branch_b_30ep_eval_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/run_branch_b_checkpoint_sweep_laptop.ps1",
+    "bytes": 3700,
+    "remote_blob": "25e96dfa49caadab9399b2ad147867af7bb8aa71",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/run_branch_b_checkpoint_sweep_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/summarize_checkpoint_sweep.py",
+    "bytes": 3594,
+    "remote_blob": "8c77332f67a341da90a4bb65dedc6c2941959362",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/summarize_checkpoint_sweep.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/train_hybrid_supervised.py",
+    "bytes": 648,
+    "remote_blob": "4d7ad0a1b8f1dc5c12346a4bab5ea25999453a07",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/train_hybrid_supervised.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/trainer.py",
+    "bytes": 50524,
+    "remote_blob": "05841a0d325472cd6caf304f47983d1973c2fa09",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/branch_b_lidar_only_continued/trainer.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/00_BRANCH_B_REPORT.md",
+    "bytes": 2234,
+    "remote_blob": "b5ba258398a9fabbf879f006659a98c1372084f2",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/00_BRANCH_B_REPORT.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/00_BRANCH_B_REPORT.md",
+    "bytes": 2234,
+    "remote_blob": "b5ba258398a9fabbf879f006659a98c1372084f2",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/00_BRANCH_B_REPORT.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/BRANCH_B_PREP.md",
+    "bytes": 898,
+    "remote_blob": "7d3b10492bfa26a3b242783365fc8ab224b613a0",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/BRANCH_B_PREP.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/HYBRID_SUPERVISED_CODE_NOTE.md",
+    "bytes": 4256,
+    "remote_blob": "4e1208d40ec861f1f6572bb311212d9f2182ac3e",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/HYBRID_SUPERVISED_CODE_NOTE.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/layers.py",
+    "bytes": 11424,
+    "remote_blob": "920a6c21120212d8e3d309ba1fcaf7d2a217003d",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/layers.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/options.py",
+    "bytes": 17988,
+    "remote_blob": "d7b8207f80f7e3a62ba8ca9e952b4960602d469b",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/options.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/prepare_branch_b_lab_repro_package.ps1",
+    "bytes": 6020,
+    "remote_blob": "d1259c60ec98d18fa2860e327384098279a8d210",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/prepare_branch_b_lab_repro_package.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/run_branch_b_2ep_smoke_eval_laptop.ps1",
+    "bytes": 4106,
+    "remote_blob": "abea85d345c375fe2477ce4d8052a016204c8de0",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/run_branch_b_2ep_smoke_eval_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/run_branch_b_30ep_eval_laptop.ps1",
+    "bytes": 4112,
+    "remote_blob": "c811830e105ed8db9e9bebdf1ca31f47055beee3",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/run_branch_b_30ep_eval_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/run_branch_b_checkpoint_sweep_laptop.ps1",
+    "bytes": 3700,
+    "remote_blob": "25e96dfa49caadab9399b2ad147867af7bb8aa71",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/run_branch_b_checkpoint_sweep_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/summarize_checkpoint_sweep.py",
+    "bytes": 3594,
+    "remote_blob": "8c77332f67a341da90a4bb65dedc6c2941959362",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/summarize_checkpoint_sweep.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/train_hybrid_supervised.py",
+    "bytes": 468,
+    "remote_blob": "209034b838fdc395826508c500ce755a233ecf52",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/train_hybrid_supervised.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/trainer.py",
+    "bytes": 50327,
+    "remote_blob": "1965bb8e1d1dd4129e1e254c9e89f8afef245f11",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/branch_b_lidar_only_continued/trainer.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/README.md",
+    "bytes": 402,
+    "remote_blob": "5c364db7bfe850b1f80cd74e1e62ebab7a6bf03e",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/branch_b/README.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/dataset_metadata/fairness_hashes.csv",
+    "bytes": 1309,
+    "remote_blob": "2998ed8df5cd977e8a3a01526b092f3572513dba",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/dataset_metadata/fairness_hashes.csv"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/dataset_metadata/metrics/summary.json",
+    "bytes": 1037,
+    "remote_blob": "e87899c15fed65279f9779eb6fa968d466d7046c",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/dataset_metadata/metrics/summary.json"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/dataset_metadata/splits/test_pairs.txt",
+    "bytes": 82741,
+    "remote_blob": "accca7437796684bc8897ca385e82efbbd83b8f5",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/dataset_metadata/splits/test_pairs.txt"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/dataset_metadata/splits/train_pairs.txt",
+    "bytes": 878691,
+    "remote_blob": "310bcb4734021274ba5882be2398e0a2e4fa8525",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/dataset_metadata/splits/train_pairs.txt"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/dataset_metadata/splits/val_pairs.txt",
+    "bytes": 115620,
+    "remote_blob": "5f093bed22e50e8b50d97955d9d586be345e6e39",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/dataset_metadata/splits/val_pairs.txt"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/README.md",
+    "bytes": 1223,
+    "remote_blob": "539f4500b26eaf8b59ee745b08fc753e3ea6e936",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/lab_transfer_package/README.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/README.md",
+    "bytes": 402,
+    "remote_blob": "5c364db7bfe850b1f80cd74e1e62ebab7a6bf03e",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_b/README.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/00_BRANCH_C_REPORT.md",
+    "bytes": 10169,
+    "remote_blob": "3e11520fdb29a49d6a5f4edd01eb22be0029fd1f",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/00_BRANCH_C_REPORT.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/00_BRANCH_C_TRAINING_REPORT.md",
+    "bytes": 10169,
+    "remote_blob": "3e11520fdb29a49d6a5f4edd01eb22be0029fd1f",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/00_BRANCH_C_TRAINING_REPORT.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/BRANCH_C_PREP.md",
+    "bytes": 4170,
+    "remote_blob": "63075d0daa69c9bef3755a5ea0e1743e3cb12b02",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/BRANCH_C_PREP.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/BRANCH_C_TRAINING_REPORT.md",
+    "bytes": 10169,
+    "remote_blob": "3e11520fdb29a49d6a5f4edd01eb22be0029fd1f",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/BRANCH_C_TRAINING_REPORT.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/HYBRID_SUPERVISED_CODE_NOTE.md",
+    "bytes": 4256,
+    "remote_blob": "4e1208d40ec861f1f6572bb311212d9f2182ac3e",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/HYBRID_SUPERVISED_CODE_NOTE.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/layers.py",
+    "bytes": 11424,
+    "remote_blob": "920a6c21120212d8e3d309ba1fcaf7d2a217003d",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/layers.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/options.py",
+    "bytes": 17988,
+    "remote_blob": "d7b8207f80f7e3a62ba8ca9e952b4960602d469b",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/options.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/postprocess_hybrid_supervised_b12_2ep_w01.ps1",
+    "bytes": 2602,
+    "remote_blob": "8157b7cbc8d8027664b49ef3e3017b8fc8cfee45",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/postprocess_hybrid_supervised_b12_2ep_w01.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/postprocess_hybrid_supervised_b12_2ep_w01_full.ps1",
+    "bytes": 2607,
+    "remote_blob": "cd9f2d0f3503a097ef8171fe3af3db434ff15387",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/postprocess_hybrid_supervised_b12_2ep_w01_full.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_and_postprocess_hybrid_abs_b12_30ep_w01_fresh.ps1",
+    "bytes": 4043,
+    "remote_blob": "3f9a9f3e5bb340dbc9471aa9ebea417ec8e73a1b",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_and_postprocess_hybrid_abs_b12_30ep_w01_fresh.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_branch_b_lidar_only_300step_laptop.ps1",
+    "bytes": 1683,
+    "remote_blob": "fa493134389cc9eceb12c176bb22cc6fec546a05",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_branch_b_lidar_only_300step_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_branch_c_2ep_smoke_eval_laptop.ps1",
+    "bytes": 3744,
+    "remote_blob": "2b9f9bffddd192397f023607489c85e273aaa325",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_branch_c_2ep_smoke_eval_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_branch_c_30ep_eval_laptop.ps1",
+    "bytes": 3746,
+    "remote_blob": "4d21bcdd81552aa867c35b43fc9916ed32400eca",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_branch_c_30ep_eval_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_branch_c_checkpoint_sweep_laptop.ps1",
+    "bytes": 3784,
+    "remote_blob": "263372233364ce2555a05f1ebf884f6ebf79c019",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_branch_c_checkpoint_sweep_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_branch_c_rgb_edge_300step_laptop.ps1",
+    "bytes": 1690,
+    "remote_blob": "1caf7db00050843be2410402ca70f70e77c6c348",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_branch_c_rgb_edge_300step_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_hybrid_supervised_b12_2ep_w01.ps1",
+    "bytes": 1374,
+    "remote_blob": "f0bba87bf4639985672582c1cffbd385d769bf24",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_hybrid_supervised_b12_2ep_w01.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_hybrid_supervised_b12_2ep_w01_full.ps1",
+    "bytes": 1379,
+    "remote_blob": "181ebc31cb0036e4b4f7dedd4d425cbf64003b98",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/run_hybrid_supervised_b12_2ep_w01_full.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/summarize_checkpoint_sweep.py",
+    "bytes": 3594,
+    "remote_blob": "8c77332f67a341da90a4bb65dedc6c2941959362",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/summarize_checkpoint_sweep.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/train_hybrid_supervised.py",
+    "bytes": 648,
+    "remote_blob": "4d7ad0a1b8f1dc5c12346a4bab5ea25999453a07",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/train_hybrid_supervised.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/trainer.py",
+    "bytes": 50524,
+    "remote_blob": "05841a0d325472cd6caf304f47983d1973c2fa09",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/branch_c_rgb_edge_smoothness/trainer.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/README.md",
+    "bytes": 591,
+    "remote_blob": "131d8afd71006303d36d45924c5a2c58a67f7521",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_c/README.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/00_BRANCH_F_REPORT.md",
+    "bytes": 5032,
+    "remote_blob": "fe476eac5fdf58a7356bd4411f74b21dc1555ce0",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/00_BRANCH_F_REPORT.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/00_BRANCH_F_TRAINING_REPORT.md",
+    "bytes": 5032,
+    "remote_blob": "fe476eac5fdf58a7356bd4411f74b21dc1555ce0",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/00_BRANCH_F_TRAINING_REPORT.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/HYBRID_SUPERVISED_CODE_NOTE.md",
+    "bytes": 4256,
+    "remote_blob": "4e1208d40ec861f1f6572bb311212d9f2182ac3e",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/HYBRID_SUPERVISED_CODE_NOTE.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/layers.py",
+    "bytes": 11423,
+    "remote_blob": "4ceb5ebf77841779e4d989cc1db885d8fbf39ae2",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/layers.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/options.py",
+    "bytes": 21020,
+    "remote_blob": "18b00f95f3f590272090ec4b5fe68dcb78a14ce3",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/options.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/run_branch_f_2ep_smoke_eval_laptop.ps1",
+    "bytes": 4439,
+    "remote_blob": "9cf902224b7c713ebcf94f061a359e0cf1796064",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/run_branch_f_2ep_smoke_eval_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/run_branch_f_30ep_eval_laptop.ps1",
+    "bytes": 4444,
+    "remote_blob": "c38bb691da5b41e1467351b84f527d41d4f0cd6d",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/run_branch_f_30ep_eval_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/run_branch_f_checkpoint_sweep_laptop.ps1",
+    "bytes": 3715,
+    "remote_blob": "7a3e26136c17180d24a781e95e0bda4d17a30954",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/run_branch_f_checkpoint_sweep_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/summarize_checkpoint_sweep.py",
+    "bytes": 3594,
+    "remote_blob": "8c77332f67a341da90a4bb65dedc6c2941959362",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/summarize_checkpoint_sweep.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/train_hybrid_supervised.py",
+    "bytes": 648,
+    "remote_blob": "4d7ad0a1b8f1dc5c12346a4bab5ea25999453a07",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/train_hybrid_supervised.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/trainer.py",
+    "bytes": 58062,
+    "remote_blob": "6e230d34e0f5be6114b0fab5fc74f26a03cf3888",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_f/branch_f_full_frame_sanity/trainer.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/00_BRANCH_G_REPORT.md",
+    "bytes": 7710,
+    "remote_blob": "efc9df9eff5b2660037a0acfab65eb6c80783666",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/00_BRANCH_G_REPORT.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/layers.py",
+    "bytes": 11423,
+    "remote_blob": "4ceb5ebf77841779e4d989cc1db885d8fbf39ae2",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/layers.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/options.py",
+    "bytes": 19369,
+    "remote_blob": "8461f1273c22c2fe34bf298c422ffad3e307f7a2",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/options.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/run_branch_g_2ep_smoke_eval_laptop.ps1",
+    "bytes": 4551,
+    "remote_blob": "961df82ca46c3faa791a3f94cdb5e2c41b4c833b",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/run_branch_g_2ep_smoke_eval_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/run_branch_g_30ep_eval_laptop.ps1",
+    "bytes": 4566,
+    "remote_blob": "82662f12b10bb8c7c6d8eecbb91e5ac84e384a87",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/run_branch_g_30ep_eval_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/run_branch_g_checkpoint_sweep_laptop.ps1",
+    "bytes": 5441,
+    "remote_blob": "078a96535162602c229cd276f5d6c73ace807cef",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/run_branch_g_checkpoint_sweep_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/run_branch_g_cuda_resweep_0_6.ps1",
+    "bytes": 1800,
+    "remote_blob": "e2223a8ab65fe287b33e231fddd14a1b5d3f00ac",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/run_branch_g_cuda_resweep_0_6.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/summarize_checkpoint_sweep.py",
+    "bytes": 3594,
+    "remote_blob": "8c77332f67a341da90a4bb65dedc6c2941959362",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/summarize_checkpoint_sweep.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/train_hybrid_supervised.py",
+    "bytes": 648,
+    "remote_blob": "4d7ad0a1b8f1dc5c12346a4bab5ea25999453a07",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/train_hybrid_supervised.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/trainer.py",
+    "bytes": 58038,
+    "remote_blob": "704f3f6ecc92e1c9030952aebffc75dd50e7f25d",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/trainer.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/watch_branch_g_30ep_then_sweep_and_report.ps1",
+    "bytes": 5766,
+    "remote_blob": "d1f15d7548a0b6f447ec3a6688cafe1acc041ea5",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_g/branch_g_original_prior/watch_branch_g_30ep_then_sweep_and_report.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/00_BRANCH_H_REPORT.md",
+    "bytes": 3769,
+    "remote_blob": "57f000943cf2d5ea063979a451dc17be1b1396f2",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/00_BRANCH_H_REPORT.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/layers.py",
+    "bytes": 11423,
+    "remote_blob": "4ceb5ebf77841779e4d989cc1db885d8fbf39ae2",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/layers.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/options.py",
+    "bytes": 19369,
+    "remote_blob": "8461f1273c22c2fe34bf298c422ffad3e307f7a2",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/options.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/run_branch_g_2ep_smoke_eval_laptop.ps1",
+    "bytes": 4551,
+    "remote_blob": "961df82ca46c3faa791a3f94cdb5e2c41b4c833b",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/run_branch_g_2ep_smoke_eval_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/run_branch_g_30ep_eval_laptop.ps1",
+    "bytes": 4566,
+    "remote_blob": "82662f12b10bb8c7c6d8eecbb91e5ac84e384a87",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/run_branch_g_30ep_eval_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/run_branch_g_checkpoint_sweep_laptop.ps1",
+    "bytes": 5441,
+    "remote_blob": "078a96535162602c229cd276f5d6c73ace807cef",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/run_branch_g_checkpoint_sweep_laptop.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/run_branch_g_cuda_resweep_0_6.ps1",
+    "bytes": 1800,
+    "remote_blob": "e2223a8ab65fe287b33e231fddd14a1b5d3f00ac",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/run_branch_g_cuda_resweep_0_6.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/run_branch_h_h2_short_prior_pipeline.ps1",
+    "bytes": 7992,
+    "remote_blob": "bef5848d62b5c8ebcdcc31f3e67bac015ed88b04",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/run_branch_h_h2_short_prior_pipeline.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/summarize_checkpoint_sweep.py",
+    "bytes": 3594,
+    "remote_blob": "8c77332f67a341da90a4bb65dedc6c2941959362",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/summarize_checkpoint_sweep.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/train_hybrid_supervised.py",
+    "bytes": 648,
+    "remote_blob": "4d7ad0a1b8f1dc5c12346a4bab5ea25999453a07",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/train_hybrid_supervised.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/trainer.py",
+    "bytes": 58038,
+    "remote_blob": "704f3f6ecc92e1c9030952aebffc75dd50e7f25d",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/trainer.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/watch_branch_g_30ep_then_sweep_and_report.ps1",
+    "bytes": 5766,
+    "remote_blob": "d1f15d7548a0b6f447ec3a6688cafe1acc041ea5",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/branch_h/branch_h_short_original_prior/watch_branch_g_30ep_then_sweep_and_report.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/compare_phase2_visuals.py",
+    "bytes": 11844,
+    "remote_blob": "d03c271b6bab388acb48cd0b736e5b622002e4ae",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/compare_phase2_visuals.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/compare_plain_medianscaled_vs_weights13.py",
+    "bytes": 11729,
+    "remote_blob": "7dc9481a0cfb651769c7b78cd9c5536ccf3ca6a3",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/compare_plain_medianscaled_vs_weights13.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/compare_two_checkpoints_raw_and_scaled.py",
+    "bytes": 17593,
+    "remote_blob": "5811d3af0f542fc254995479d5209ddd86e5dac1",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/compare_two_checkpoints_raw_and_scaled.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/external_image_sanity_test/outputs_big_original_b_c_f_g_median_scaled/big_raw_and_median_scaled_summary.csv",
+    "bytes": 823,
+    "remote_blob": "c84750e6b4e03caf8748fa7c5dad0d767fe70ea2",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/external_image_sanity_test/outputs_big_original_b_c_f_g_median_scaled/big_raw_and_median_scaled_summary.csv"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/external_image_sanity_test/outputs_branch_g_w0_vs_w29/external_image_sanity_summary.csv",
+    "bytes": 2150,
+    "remote_blob": "91519e1256c6e5e4bb29633aae1c402bf350be3c",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/external_image_sanity_test/outputs_branch_g_w0_vs_w29/external_image_sanity_summary.csv"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/external_image_sanity_test/README.md",
+    "bytes": 2067,
+    "remote_blob": "409585df22d80d3113e046bfbe6ce56a241ecf5d",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/external_image_sanity_test/README.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/external_image_sanity_test/run_external_image_sanity.ps1",
+    "bytes": 302,
+    "remote_blob": "cb003ad45a5b7d4d9cd40e6041077dbeb2f4bf4b",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/external_image_sanity_test/run_external_image_sanity.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/external_image_sanity_test/run_external_image_sanity.py",
+    "bytes": 9676,
+    "remote_blob": "d274d36175bdd87dbfb2bd4d6e4de209468eb8eb",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/external_image_sanity_test/run_external_image_sanity.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/HYBRID_SUPERVISED_30EP_RESULT_REPORT.md",
+    "bytes": 10025,
+    "remote_blob": "a4241b6a3bc727117481d8d4a24061a5c973128d",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/HYBRID_SUPERVISED_30EP_RESULT_REPORT.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/HYBRID_SUPERVISED_CODE_NOTE.md",
+    "bytes": 4256,
+    "remote_blob": "4e1208d40ec861f1f6572bb311212d9f2182ac3e",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/HYBRID_SUPERVISED_CODE_NOTE.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/layers.py",
+    "bytes": 11424,
+    "remote_blob": "920a6c21120212d8e3d309ba1fcaf7d2a217003d",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/layers.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/options.py",
+    "bytes": 17432,
+    "remote_blob": "3844e7495488394e54f503195bbdbc4427cfa9d4",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/options.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/postprocess_hybrid_supervised_b12_2ep_w01.ps1",
+    "bytes": 2602,
+    "remote_blob": "8157b7cbc8d8027664b49ef3e3017b8fc8cfee45",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/postprocess_hybrid_supervised_b12_2ep_w01.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/postprocess_hybrid_supervised_b12_2ep_w01_full.ps1",
+    "bytes": 2607,
+    "remote_blob": "cd9f2d0f3503a097ef8171fe3af3db434ff15387",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/postprocess_hybrid_supervised_b12_2ep_w01_full.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/run_and_postprocess_hybrid_abs_b12_30ep_w01_fresh.ps1",
+    "bytes": 4043,
+    "remote_blob": "3f9a9f3e5bb340dbc9471aa9ebea417ec8e73a1b",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/run_and_postprocess_hybrid_abs_b12_30ep_w01_fresh.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/run_hybrid_supervised_b12_2ep_w01.ps1",
+    "bytes": 1374,
+    "remote_blob": "f0bba87bf4639985672582c1cffbd385d769bf24",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/run_hybrid_supervised_b12_2ep_w01.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/run_hybrid_supervised_b12_2ep_w01_full.ps1",
+    "bytes": 1379,
+    "remote_blob": "181ebc31cb0036e4b4f7dedd4d425cbf64003b98",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/run_hybrid_supervised_b12_2ep_w01_full.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/train_hybrid_supervised.py",
+    "bytes": 468,
+    "remote_blob": "209034b838fdc395826508c500ce755a233ecf52",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/train_hybrid_supervised.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/trainer.py",
+    "bytes": 48801,
+    "remote_blob": "cd86457c384e1ed5bca246d320c5abdd0b55cee1",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/hybrid_supervised_draft/trainer.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/HYBRID_SUPERVISED_PLAN.md",
+    "bytes": 12021,
+    "remote_blob": "8ec3ebca32f0f78e2572c1128ed76fc7fdc37d3e",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/HYBRID_SUPERVISED_PLAN.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/lidar_aware_edge_loss_experiment/LIDAR_AWARE_EDGE_LOSS_PLAN.md",
+    "bytes": 11939,
+    "remote_blob": "9787106ea85081cd1818176f1169f9ccebb1eb68",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/lidar_aware_edge_loss_experiment/LIDAR_AWARE_EDGE_LOSS_PLAN.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/phase2_boundary_loss_draft/code/layers.py",
+    "bytes": 11424,
+    "remote_blob": "920a6c21120212d8e3d309ba1fcaf7d2a217003d",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/phase2_boundary_loss_draft/code/layers.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/phase2_boundary_loss_draft/code/options.py",
+    "bytes": 14807,
+    "remote_blob": "a7cc04cc54c5538acbc046c96971c81e8c558045",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/phase2_boundary_loss_draft/code/options.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/phase2_boundary_loss_draft/code/trainer.py",
+    "bytes": 39906,
+    "remote_blob": "7968e8ba4174ab9f82cc23c7eb2ae934f37ff6f5",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/phase2_boundary_loss_draft/code/trainer.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/phase2_boundary_loss_draft/PHASE_2_CODE_MODIFICATION_NOTE.md",
+    "bytes": 4010,
+    "remote_blob": "8b5794e99ce3c0fa6044ee4149cbe16edfc62026",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/phase2_boundary_loss_draft/PHASE_2_CODE_MODIFICATION_NOTE.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_1_CHECKLIST.md",
+    "bytes": 6665,
+    "remote_blob": "add7627db2dde7745ace57848eb52ea4c32b73d3",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_1_CHECKLIST.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_1_INDEX.md",
+    "bytes": 8196,
+    "remote_blob": "8aa9b70c27a8711a371fd7908fe28e536a09d976",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_1_INDEX.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_1_OCCLUSION_MASKING.md",
+    "bytes": 12408,
+    "remote_blob": "f7379a933e07938093c06407f3e143ae570e64da",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_1_OCCLUSION_MASKING.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_1_SUMMARY.md",
+    "bytes": 8655,
+    "remote_blob": "4fe001ded44934741e50313ba3ef259ba8019592",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_1_SUMMARY.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_2_BOUNDARY_LOSS.md",
+    "bytes": 18572,
+    "remote_blob": "9f1e30a4778135fde49a088206dc6808183e4cf8",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_2_BOUNDARY_LOSS.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_2_CHECKLIST.md",
+    "bytes": 8345,
+    "remote_blob": "bc91ae90cf5117b73c383f2eea8ae7a08d225ffb",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_2_CHECKLIST.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_2_EXECUTION_SUMMARY.md",
+    "bytes": 9052,
+    "remote_blob": "3b2bc7a28d05731fadde69dbd34c163a5a1bd114",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_2_EXECUTION_SUMMARY.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_2_INDEX.md",
+    "bytes": 9753,
+    "remote_blob": "1996538b58af1070c8abfcac46c0fbc03ab80cf8",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/PHASE_2_INDEX.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/plot_training_losses.py",
+    "bytes": 2973,
+    "remote_blob": "049c40ea363af14be50a188b7de1ddc37e1c8101",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/plot_training_losses.py"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/postprocess_phase2_boundary_b12_2ep_w005.ps1",
+    "bytes": 2595,
+    "remote_blob": "f57e09e513bab7a67ed1d54ab4298f313d8cc26d",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/postprocess_phase2_boundary_b12_2ep_w005.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/postprocess_phase2_boundary_b12_2ep_w02.ps1",
+    "bytes": 2582,
+    "remote_blob": "3cd26eabc2cb02990f5969b5d8d06dd7eee0dcec",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/postprocess_phase2_boundary_b12_2ep_w02.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/postprocess_phase2_boundary_b12_30ep_w005.ps1",
+    "bytes": 2597,
+    "remote_blob": "0fccace547351b6e93d2aeb9849cb1df9174727f",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/postprocess_phase2_boundary_b12_30ep_w005.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/postprocess_phase2_boundary_b12_30ep_w02.ps1",
+    "bytes": 2584,
+    "remote_blob": "00b3d37a3c09d2fbc310a35c2c065548596ff9e5",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/postprocess_phase2_boundary_b12_30ep_w02.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/postprocess_plain_citrus_b12_2ep_control.ps1",
+    "bytes": 2612,
+    "remote_blob": "d5d1662476212dede7271bd15f28cc0e956b622e",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/postprocess_plain_citrus_b12_2ep_control.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/presentation_2026_05_26_hybrid_progress/PPT_BULLETS_AND_SCRIPT.md",
+    "bytes": 13945,
+    "remote_blob": "8fb7ab18b7cc1dffa68d34fc0c69aabf22196468",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/presentation_2026_05_26_hybrid_progress/PPT_BULLETS_AND_SCRIPT.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/presentation_2026_05_26_hybrid_progress/PRESENTATION_6_MIN_SCRIPT.md",
+    "bytes": 5310,
+    "remote_blob": "853d2aa305e34f6908ea28e51fd73b4d9e534665",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/presentation_2026_05_26_hybrid_progress/PRESENTATION_6_MIN_SCRIPT.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/rgb_edge_prior_distillation_experiment/PLAN.md",
+    "bytes": 26784,
+    "remote_blob": "8a19b821aede0d056bfdcfaa34020e316fe3791a",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/rgb_edge_prior_distillation_experiment/PLAN.md"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/run_phase2_boundary_b12_2ep_w005.ps1",
+    "bytes": 1099,
+    "remote_blob": "cd769c5d0c7c1a5c08511c98329f792cc9ed0111",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/run_phase2_boundary_b12_2ep_w005.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/run_phase2_boundary_b12_2ep_w02.ps1",
+    "bytes": 1097,
+    "remote_blob": "e163a2a80c9115986b87f5afde8814264091b458",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/run_phase2_boundary_b12_2ep_w02.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/run_phase2_boundary_b12_30ep_w005.ps1",
+    "bytes": 1101,
+    "remote_blob": "c9d3475aa172839b7e5c6ba9b24cdd5ab3f7121b",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/run_phase2_boundary_b12_30ep_w005.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/run_phase2_boundary_b12_30ep_w02.ps1",
+    "bytes": 1099,
+    "remote_blob": "5f841f0313b2e8f8234327c1d6c8000d22e53135",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/run_phase2_boundary_b12_30ep_w02.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/run_plain_citrus_b12_2ep_control.ps1",
+    "bytes": 1061,
+    "remote_blob": "5f79725d2fa4c5bf223850ff239adad8c7364a3b",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/run_plain_citrus_b12_2ep_control.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs/branch_b_lidar_only_from_w13_b12_30ep_s001_laptop/models/weights_24/depth.pth",
+    "bytes": 912583,
+    "remote_blob": "61e088c8eaa7db6a460ef7636cb599fdf64e993e",
+    "remote_path": "model_weights/branch_b_lidar_only_w24/depth.pth"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs/branch_b_lidar_only_from_w13_b12_30ep_s001_laptop/models/weights_24/encoder.pth",
+    "bytes": 11496563,
+    "remote_blob": "5590cd28e881670544b071ffbeff7dba2f967a7f",
+    "remote_path": "model_weights/branch_b_lidar_only_w24/encoder.pth"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs/branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop/models/weights_24/depth.pth",
+    "bytes": 912583,
+    "remote_blob": "5ca01543549dc35961bbaa4567f0f04f5596f54f",
+    "remote_path": "model_weights/branch_c_rgb_edge_w24/depth.pth"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs/branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop/models/weights_24/encoder.pth",
+    "bytes": 11496563,
+    "remote_blob": "e748564e64cb97869a8d71e8dcae6127fac1ede4",
+    "remote_path": "model_weights/branch_c_rgb_edge_w24/encoder.pth"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs/branch_g_original_prior_from_b24_b12_30ep_w005_laptop/models/weights_0/depth.pth",
+    "bytes": 912583,
+    "remote_blob": "6c1aedaa1b41228a5d1e5508484b22c3b8e24e39",
+    "remote_path": "model_weights/branch_g_original_prior_w0/depth.pth"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs/branch_g_original_prior_from_b24_b12_30ep_w005_laptop/models/weights_0/encoder.pth",
+    "bytes": 11496563,
+    "remote_blob": "b31ac96ce3a90ab7f1f6b90a88e4e1638c28b7ab",
+    "remote_path": "model_weights/branch_g_original_prior_w0/encoder.pth"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs/hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched/models/weights_13/depth.pth",
+    "bytes": 912583,
+    "remote_blob": "d88a5341af1d6c9ad141237ef0d69842dec605df",
+    "remote_path": "model_weights/branch_a_hybrid_w13/depth.pth"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs/hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched/models/weights_13/encoder.pth",
+    "bytes": 11496563,
+    "remote_blob": "91912c428e82dfc951584fa5f2833439c9e146c6",
+    "remote_path": "model_weights/branch_a_hybrid_w13/encoder.pth"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/watch_and_postprocess_phase2_boundary_b12_30ep_w005.ps1",
+    "bytes": 1698,
+    "remote_blob": "2bb300661c86d47448521ad2ac4378de055efc16",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/watch_and_postprocess_phase2_boundary_b12_30ep_w005.ps1"
+  },
+  {
+    "path": "citrus_project/milestones/04_lightweight_vegetation_improvement/README.md",
+    "bytes": 258,
+    "remote_blob": "6aa6663ff1d257f25bd491fbeeb2fcac397d1ab1",
+    "remote_path": "citrus_project/milestones/04_lightweight_vegetation_improvement/README.md"
+  },
+  {
+    "path": "citrus_project/milestones/05_optional_supervised_or_hybrid/README.md",
+    "bytes": 265,
+    "remote_blob": "3ffdfab79ff62d94a219829d44723e65971b87d9",
+    "remote_path": "citrus_project/milestones/05_optional_supervised_or_hybrid/README.md"
+  },
+  {
+    "path": "citrus_project/milestones/README.md",
+    "bytes": 1053,
+    "remote_blob": "4a1e7b05f2816f54a4a954d1be11315a2b6abfbb",
+    "remote_path": "citrus_project/milestones/README.md"
+  },
+  {
+    "path": "citrus_project/OCCLUSION_MASKING_EXPLAINED.md",
+    "bytes": 10434,
+    "remote_blob": "94bc9d0749578e1af5d2e9718ace0612d7c37048",
+    "remote_path": "citrus_project/OCCLUSION_MASKING_EXPLAINED.md"
+  },
+  {
+    "path": "citrus_project/PHASE_1_CHECKLIST.md",
+    "bytes": 6665,
+    "remote_blob": "add7627db2dde7745ace57848eb52ea4c32b73d3",
+    "remote_path": "citrus_project/PHASE_1_CHECKLIST.md"
+  },
+  {
+    "path": "citrus_project/PHASE_1_INDEX.md",
+    "bytes": 8196,
+    "remote_blob": "8aa9b70c27a8711a371fd7908fe28e536a09d976",
+    "remote_path": "citrus_project/PHASE_1_INDEX.md"
+  },
+  {
+    "path": "citrus_project/PHASE_1_OCCLUSION_MASKING.md",
+    "bytes": 12408,
+    "remote_blob": "f7379a933e07938093c06407f3e143ae570e64da",
+    "remote_path": "citrus_project/PHASE_1_OCCLUSION_MASKING.md"
+  },
+  {
+    "path": "citrus_project/PHASE_1_SUMMARY.md",
+    "bytes": 8655,
+    "remote_blob": "4fe001ded44934741e50313ba3ef259ba8019592",
+    "remote_path": "citrus_project/PHASE_1_SUMMARY.md"
+  },
+  {
+    "path": "citrus_project/README.md",
+    "bytes": 1160,
+    "remote_blob": "a0daaeb0762a881c684a6eecb7d48bf9b5c64f85",
+    "remote_path": "citrus_project/README.md"
+  },
+  {
+    "path": "citrus_project/research/baseline_notes.md",
+    "bytes": 84095,
+    "remote_blob": "9b734d7abdfe23e389344e9958b647ef1e799a09",
+    "remote_path": "citrus_project/research/baseline_notes.md"
+  },
+  {
+    "path": "citrus_project/research/dataset_notes.md",
+    "bytes": 4671,
+    "remote_blob": "f16bf49845d54ca263b3254abd017cdf43808b7a",
+    "remote_path": "citrus_project/research/dataset_notes.md"
+  },
+  {
+    "path": "citrus_project/research/FOCUSED_RESEARCH_STRATEGY.md",
+    "bytes": 5761,
+    "remote_blob": "2a463c35298483e80204610c45def140ce7805ed",
+    "remote_path": "citrus_project/research/FOCUSED_RESEARCH_STRATEGY.md"
+  },
+  {
+    "path": "citrus_project/research/literature_tracker.md",
+    "bytes": 9909,
+    "remote_blob": "d1d89bd67a16d8cf74ae6f47d40c1756582e9bcc",
+    "remote_path": "citrus_project/research/literature_tracker.md"
+  },
+  {
+    "path": "citrus_project/research/paper_shortlist.md",
+    "bytes": 2672,
+    "remote_blob": "c467cbf4fd95a4a96c018dd8a4299d330d656dc8",
+    "remote_path": "citrus_project/research/paper_shortlist.md"
+  },
+  {
+    "path": "citrus_project/research/README.md",
+    "bytes": 1542,
+    "remote_blob": "542526b1dec10d94acf2e946cc524ca09fb7f36b",
+    "remote_path": "citrus_project/research/README.md"
+  },
+  {
+    "path": "citrus_project/research/scene_taxonomy.md",
+    "bytes": 1127,
+    "remote_blob": "3ef964709907e97f96716d67116b22a2ae40da75",
+    "remote_path": "citrus_project/research/scene_taxonomy.md"
+  },
+  {
+    "path": "citrus_project/research/student_qna.md",
+    "bytes": 4709,
+    "remote_blob": "7123685454a52dcc87e4e050a44562cdb73646a8",
+    "remote_path": "citrus_project/research/student_qna.md"
+  },
+  {
+    "path": "citrus_project/TASK_BOARD.md",
+    "bytes": 1876,
+    "remote_blob": "e221c93b05d5889ab5bb7d43a9a136cb5f0425ae",
+    "remote_path": "citrus_project/TASK_BOARD.md"
+  },
+  {
+    "path": "citrus_project/TEAM_WORKFLOW.md",
+    "bytes": 2035,
+    "remote_blob": "270aa467cf79ec99f910d4461551f48b20dd3f98",
+    "remote_path": "citrus_project/TEAM_WORKFLOW.md"
+  }
+]

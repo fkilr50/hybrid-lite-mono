@@ -1,0 +1,44 @@
+[
+  {
+    "role": "bad",
+    "index": 1,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-33-03_13_bag_1689715983638853080.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\visual_compare_dry_run\\baseline_vs_phase2_val\\bad_index_0001_comparison.png",
+    "baseline_scale_ratio": 3.024547681546223,
+    "phase2_scale_ratio": 9.64541770467258,
+    "baseline_median_scaled_abs_rel": 0.16656900600792895,
+    "baseline_median_scaled_a1": 0.7977381410432584,
+    "phase2_median_scaled_abs_rel": 0.37294332271544844,
+    "phase2_median_scaled_a1": 0.39243115483977353,
+    "phase2_minus_baseline_abs_rel": 0.2063743167075195,
+    "phase2_minus_baseline_a1": -0.4053069862034848
+  },
+  {
+    "role": "typical",
+    "index": 2,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-33-03_13_bag_1689715983759056536.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\visual_compare_dry_run\\baseline_vs_phase2_val\\typical_index_0002_comparison.png",
+    "baseline_scale_ratio": 3.0760448811261325,
+    "phase2_scale_ratio": 9.377791713895338,
+    "baseline_median_scaled_abs_rel": 0.17875967690667027,
+    "baseline_median_scaled_a1": 0.7668591598004073,
+    "phase2_median_scaled_abs_rel": 0.36120521893240076,
+    "phase2_median_scaled_a1": 0.4037470288904381,
+    "phase2_minus_baseline_abs_rel": 0.1824455420257305,
+    "phase2_minus_baseline_a1": -0.3631121309099692
+  },
+  {
+    "role": "good",
+    "index": 3,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-33-03_13_bag_1689715983852320408.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\visual_compare_dry_run\\baseline_vs_phase2_val\\good_index_0003_comparison.png",
+    "baseline_scale_ratio": 3.0856833012548925,
+    "phase2_scale_ratio": 9.112390972918622,
+    "baseline_median_scaled_abs_rel": 0.20578172186358815,
+    "baseline_median_scaled_a1": 0.7327192761792081,
+    "phase2_median_scaled_abs_rel": 0.3470899534975349,
+    "phase2_median_scaled_a1": 0.4317603186757596,
+    "phase2_minus_baseline_abs_rel": 0.14130823163394676,
+    "phase2_minus_baseline_a1": -0.3009589575034485
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "role": "bad",
+    "index": 342,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-33-32_14_bag_1689716017764269816.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\branch_c_rgb_edge_smoothness\\results\\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\\checkpoint_sweep\\visuals\\weights_24_baseline_vs_branch_c_val\\bad_index_0342_comparison.png",
+    "baseline_scale_ratio": 0.6730811342628622,
+    "phase2_scale_ratio": 0.6417323178997812,
+    "baseline_median_scaled_abs_rel": 1.2765014342300554,
+    "baseline_median_scaled_a1": 0.014695498929409941,
+    "phase2_median_scaled_abs_rel": 0.45460389580899574,
+    "phase2_median_scaled_a1": 0.21889117868234187,
+    "phase2_minus_baseline_abs_rel": -0.8218975384210596,
+    "phase2_minus_baseline_a1": 0.20419567975293193
+  },
+  {
+    "role": "typical",
+    "index": 393,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-33-32_14_bag_1689716022859703416.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\branch_c_rgb_edge_smoothness\\results\\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\\checkpoint_sweep\\visuals\\weights_24_baseline_vs_branch_c_val\\typical_index_0393_comparison.png",
+    "baseline_scale_ratio": 1.655659707824215,
+    "phase2_scale_ratio": 1.0218056515859608,
+    "baseline_median_scaled_abs_rel": 0.8514569448616239,
+    "baseline_median_scaled_a1": 0.020610021650363807,
+    "phase2_median_scaled_abs_rel": 0.12135028863612048,
+    "phase2_median_scaled_a1": 0.8820445691327671,
+    "phase2_minus_baseline_abs_rel": -0.7301066562255034,
+    "phase2_minus_baseline_a1": 0.8614345474824032
+  },
+  {
+    "role": "good",
+    "index": 45,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-33-03_13_bag_1689715988041790936.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\branch_c_rgb_edge_smoothness\\results\\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\\checkpoint_sweep\\visuals\\weights_24_baseline_vs_branch_c_val\\good_index_0045_comparison.png",
+    "baseline_scale_ratio": 3.2881471411347905,
+    "phase2_scale_ratio": 0.9907011628899166,
+    "baseline_median_scaled_abs_rel": 0.12125533682955393,
+    "baseline_median_scaled_a1": 0.8793210131177296,
+    "phase2_median_scaled_abs_rel": 0.07766354021187019,
+    "phase2_median_scaled_a1": 0.9542617888670195,
+    "phase2_minus_baseline_abs_rel": -0.04359179661768374,
+    "phase2_minus_baseline_a1": 0.07494077574928992
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "requested_samples": 564,
+  "samples_with_metrics": 564,
+  "averaging_rule": "per_image_metric_mean",
+  "timing": {
+    "model_load_seconds": 3.5901289,
+    "evaluation_loop_seconds": 222.73649129999998,
+    "total_run_seconds": 226.3925566,
+    "requested_samples_per_second": 2.5321400939209284,
+    "metric_samples_per_second": 2.5321400939209284,
+    "mean_sample_wall_seconds": 0.3935867656028371,
+    "total_model_forward_seconds": 41.55192630000009,
+    "mean_model_forward_seconds": 0.07367362819148952,
+    "model_forward_fps": 13.573377944694679,
+    "timing_note": "evaluation_loop includes image/label loading, inference, resizing, and metrics; model_forward includes encoder, decoder, disparity-depth conversion, and output resize."
+  },
+  "total_valid_pixels": 193505450,
+  "mean_valid_fraction": 0.3722816509370075,
+  "median_scale_ratio": 0.9918974636288911,
+  "mean_scale_ratio": 0.9967872531120491,
+  "mean_raw_metrics": {
+    "abs_rel": 0.1568102630962232,
+    "sq_rel": 0.5576208888973552,
+    "rmse": 1.5544656216530712,
+    "rmse_log": 0.23541548590624095,
+    "a1": 0.8648037267548355,
+    "a2": 0.9592632477753003,
+    "a3": 0.9805411839915732
+  },
+  "mean_median_scaled_metrics": {
+    "abs_rel": 0.1585558296206985,
+    "sq_rel": 0.5489673169064118,
+    "rmse": 1.5684206423207645,
+    "rmse_log": 0.23553457581923523,
+    "a1": 0.8612568661891231,
+    "a2": 0.9600413450469625,
+    "a3": 0.9811070615225713
+  },
+  "created_at": "2026-06-09T18:09:22",
+  "split": "val",
+  "split_samples": 564,
+  "max_samples_arg": 0,
+  "model": "lite-mono",
+  "weights_folder": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\runs\\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\\models\\weights_17",
+  "device": "cuda",
+  "model_info": {
+    "encoder_parameters": 2848120,
+    "depth_decoder_parameters": 226627,
+    "total_parameters": 3074747,
+    "total_parameters_millions": 3.074747,
+    "encoder_trainable_parameters": 2848120,
+    "depth_decoder_trainable_parameters": 226627,
+    "total_trainable_parameters": 3074747,
+    "total_trainable_parameters_millions": 3.074747,
+    "encoder_checkpoint": {
+      "bytes": 11496563,
+      "megabytes": 10.963976860046387
+    },
+    "depth_decoder_checkpoint": {
+      "bytes": 912583,
+      "megabytes": 0.8703069686889648
+    },
+    "total_checkpoint": {
+      "bytes": 12409146,
+      "megabytes": 11.834283828735352
+    },
+    "parameter_note": "Counts include the Lite-Mono encoder and depth decoder used for depth inference; they do not include the training-only pose network."
+  },
+  "feed_width": 640,
+  "feed_height": 192,
+  "model_min_depth": 0.1,
+  "model_max_depth": 100.0,
+  "eval_min_depth": 0.001,
+  "eval_max_depth": 80.0,
+  "dataset_workspace": "C:\\Proj\\lite-Mono\\citrus_project\\dataset_workspace",
+  "prepared_dataset": "C:\\Proj\\lite-Mono\\citrus_project\\dataset_workspace\\prepared_training_dataset"
+}

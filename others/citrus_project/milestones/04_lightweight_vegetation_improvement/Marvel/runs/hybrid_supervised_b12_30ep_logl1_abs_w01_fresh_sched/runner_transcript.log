@@ -1,0 +1,328 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260520084035
+Username: LAPTOP-COO4RPDB\user
+RunAs User: LAPTOP-COO4RPDB\user
+Configuration Name: 
+Machine: LAPTOP-COO4RPDB (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Proj\lite-Mono\run_hybrid30.ps1
+Process ID: 30280
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\runner_transcript.log
+mypretrain loaded.
+Training model named:
+   hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched
+Models and tensorboard events files are saved to:
+   citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs
+Training is using:
+   cuda
+Using split:
+   citrus_prepared
+There are 4275 training items and 560 validation items
+
+Training
+epoch   0 | lr 0.000100 |lr_p 0.000100 | batch      0 | examples/s:   1.7 | loss: 0.23974 | time elapsed: 00h00m09s | time left: 00h00m00s
+epoch   0 | lr 0.000100 |lr_p 0.000100 | batch    100 | examples/s:   2.2 | loss: 0.15459 | time elapsed: 00h16m06s | time left: 28h24m50s
+epoch   0 | lr 0.000100 |lr_p 0.000100 | batch    200 | examples/s:   2.1 | loss: 0.14263 | time elapsed: 00h32m01s | time left: 27h58m29s
+epoch   0 | lr 0.000100 |lr_p 0.000100 | batch    300 | examples/s:   2.2 | loss: 0.14529 | time elapsed: 00h48m12s | time left: 27h47m59s
+Training
+epoch   1 | lr 0.000099 |lr_p 0.000099 | batch      0 | examples/s:   2.1 | loss: 0.13905 | time elapsed: 00h57m20s | time left: 27h43m07s
+epoch   1 | lr 0.000099 |lr_p 0.000099 | batch    100 | examples/s:   2.2 | loss: 0.13433 | time elapsed: 01h12m06s | time left: 26h56m40s
+epoch   1 | lr 0.000099 |lr_p 0.000099 | batch    200 | examples/s:   2.1 | loss: 0.13645 | time elapsed: 01h26m46s | time left: 26h20m08s
+epoch   1 | lr 0.000099 |lr_p 0.000099 | batch    300 | examples/s:   2.2 | loss: 0.14109 | time elapsed: 01h41m27s | time left: 25h50m24s
+Training
+epoch   2 | lr 0.000098 |lr_p 0.000098 | batch      0 | examples/s:   2.1 | loss: 0.13595 | time elapsed: 01h49m42s | time left: 25h35m48s
+epoch   2 | lr 0.000098 |lr_p 0.000098 | batch    100 | examples/s:   2.2 | loss: 0.14508 | time elapsed: 02h04m13s | time left: 25h09m39s
+epoch   2 | lr 0.000098 |lr_p 0.000098 | batch    200 | examples/s:   2.1 | loss: 0.13363 | time elapsed: 02h18m47s | time left: 24h46m33s
+epoch   2 | lr 0.000098 |lr_p 0.000098 | batch    300 | examples/s:   2.2 | loss: 0.13103 | time elapsed: 02h33m28s | time left: 24h26m16s
+Training
+epoch   3 | lr 0.000096 |lr_p 0.000096 | batch      0 | examples/s:   2.0 | loss: 0.13023 | time elapsed: 02h41m43s | time left: 24h15m30s
+epoch   3 | lr 0.000096 |lr_p 0.000096 | batch    100 | examples/s:   2.3 | loss: 0.13525 | time elapsed: 02h56m19s | time left: 23h55m58s
+epoch   3 | lr 0.000096 |lr_p 0.000096 | batch    200 | examples/s:   2.0 | loss: 0.13160 | time elapsed: 03h11m39s | time left: 23h42m38s
+epoch   3 | lr 0.000096 |lr_p 0.000096 | batch    300 | examples/s:   1.3 | loss: 0.14887 | time elapsed: 03h43m59s | time left: 25h24m41s
+Training
+epoch   4 | lr 0.000094 |lr_p 0.000094 | batch      0 | examples/s:   1.4 | loss: 0.13325 | time elapsed: 04h04m04s | time left: 26h26m30s
+epoch   4 | lr 0.000094 |lr_p 0.000094 | batch    100 | examples/s:   1.8 | loss: 0.14120 | time elapsed: 04h38m49s | time left: 27h55m06s
+epoch   4 | lr 0.000094 |lr_p 0.000094 | batch    200 | examples/s:   1.2 | loss: 0.12297 | time elapsed: 05h20m03s | time left: 29h44m44s
+epoch   4 | lr 0.000094 |lr_p 0.000094 | batch    300 | examples/s:   1.3 | loss: 0.11529 | time elapsed: 06h01m00s | time left: 31h15m21s
+Training
+epoch   5 | lr 0.000091 |lr_p 0.000092 | batch      0 | examples/s:   1.3 | loss: 0.11838 | time elapsed: 06h24m26s | time left: 32h02m12s
+epoch   5 | lr 0.000091 |lr_p 0.000092 | batch    100 | examples/s:   1.8 | loss: 0.11065 | time elapsed: 06h57m51s | time left: 32h35m55s
+epoch   5 | lr 0.000091 |lr_p 0.000092 | batch    200 | examples/s:   1.1 | loss: 0.11951 | time elapsed: 07h34m39s | time left: 33h17m46s
+epoch   5 | lr 0.000091 |lr_p 0.000092 | batch    220 | examples/s:   1.1 | loss: 0.11955 | time elapsed: 07h43m27s | time left: 33h31m26s
+epoch   5 | lr 0.000091 |lr_p 0.000092 | batch    300 | examples/s:   1.7 | loss: 0.13340 | time elapsed: 08h08m26s | time left: 33h39m30s
+Training
+epoch   6 | lr 0.000089 |lr_p 0.000089 | batch      0 | examples/s:   1.7 | loss: 0.11321 | time elapsed: 08h28m01s | time left: 33h52m05s
+epoch   6 | lr 0.000089 |lr_p 0.000089 | batch    100 | examples/s:   1.8 | loss: 0.11091 | time elapsed: 09h01m25s | time left: 34h04m37s
+epoch   6 | lr 0.000089 |lr_p 0.000089 | batch    200 | examples/s:   1.7 | loss: 0.11292 | time elapsed: 09h32m20s | time left: 34h04m20s
+epoch   6 | lr 0.000089 |lr_p 0.000089 | batch    300 | examples/s:   1.8 | loss: 0.10245 | time elapsed: 10h02m39s | time left: 33h59m31s
+Training
+epoch   7 | lr 0.000085 |lr_p 0.000086 | batch      0 | examples/s:   1.8 | loss: 0.11746 | time elapsed: 10h19m54s | time left: 33h56m51s
+epoch   7 | lr 0.000085 |lr_p 0.000086 | batch    100 | examples/s:   1.4 | loss: 0.10859 | time elapsed: 10h50m23s | time left: 33h49m27s
+epoch   7 | lr 0.000085 |lr_p 0.000086 | batch    200 | examples/s:   1.3 | loss: 0.10891 | time elapsed: 11h28m29s | time left: 34h02m57s
+epoch   7 | lr 0.000085 |lr_p 0.000086 | batch    300 | examples/s:   1.6 | loss: 0.10298 | time elapsed: 12h05m38s | time left: 34h10m05s
+Training
+epoch   8 | lr 0.000082 |lr_p 0.000083 | batch      0 | examples/s:   1.0 | loss: 0.11731 | time elapsed: 12h26m48s | time left: 34h13m44s
+epoch   8 | lr 0.000082 |lr_p 0.000083 | batch    100 | examples/s:   1.8 | loss: 0.10952 | time elapsed: 13h04m26s | time left: 34h17m25s
+epoch   8 | lr 0.000082 |lr_p 0.000083 | batch    200 | examples/s:   0.8 | loss: 0.10790 | time elapsed: 13h42m33s | time left: 34h19m38s
+epoch   8 | lr 0.000082 |lr_p 0.000083 | batch    300 | examples/s:   1.7 | loss: 0.10776 | time elapsed: 14h18m13s | time left: 34h13m25s
+Training
+epoch   9 | lr 0.000078 |lr_p 0.000079 | batch      0 | examples/s:   1.5 | loss: 0.09121 | time elapsed: 14h37m14s | time left: 34h06m54s
+epoch   9 | lr 0.000078 |lr_p 0.000079 | batch    100 | examples/s:   1.7 | loss: 0.10431 | time elapsed: 15h10m39s | time left: 33h52m59s
+epoch   9 | lr 0.000078 |lr_p 0.000079 | batch    200 | examples/s:   1.2 | loss: 0.10047 | time elapsed: 15h43m33s | time left: 33h36m50s
+epoch   9 | lr 0.000078 |lr_p 0.000079 | batch    300 | examples/s:   1.7 | loss: 0.09505 | time elapsed: 16h02m10s | time left: 32h50m28s
+Training
+epoch  10 | lr 0.000073 |lr_p 0.000075 | batch      0 | examples/s:   1.7 | loss: 0.10325 | time elapsed: 16h12m29s | time left: 32h24m58s
+epoch  10 | lr 0.000073 |lr_p 0.000075 | batch    100 | examples/s:   1.8 | loss: 0.10179 | time elapsed: 16h29m55s | time left: 31h38m42s
+epoch  10 | lr 0.000073 |lr_p 0.000075 | batch    200 | examples/s:   1.7 | loss: 0.11557 | time elapsed: 16h46m52s | time left: 30h53m04s
+epoch  10 | lr 0.000073 |lr_p 0.000075 | batch    300 | examples/s:   1.8 | loss: 0.10805 | time elapsed: 17h04m06s | time left: 30h09m25s
+Training
+epoch  11 | lr 0.000069 |lr_p 0.000071 | batch      0 | examples/s:   1.7 | loss: 0.09725 | time elapsed: 17h13m55s | time left: 29h45m51s
+epoch  11 | lr 0.000069 |lr_p 0.000071 | batch     84 | examples/s:   1.7 | loss: 0.11180 | time elapsed: 17h28m18s | time left: 29h10m39s
+epoch  11 | lr 0.000069 |lr_p 0.000071 | batch    100 | examples/s:   1.8 | loss: 0.11525 | time elapsed: 17h31m12s | time left: 29h04m20s
+epoch  11 | lr 0.000069 |lr_p 0.000071 | batch    200 | examples/s:   1.7 | loss: 0.10712 | time elapsed: 17h48m29s | time left: 28h23m59s
+epoch  11 | lr 0.000069 |lr_p 0.000071 | batch    300 | examples/s:   1.8 | loss: 0.10333 | time elapsed: 18h05m41s | time left: 27h44m35s
+Training
+epoch  12 | lr 0.000064 |lr_p 0.000066 | batch      0 | examples/s:   1.9 | loss: 0.10215 | time elapsed: 18h15m27s | time left: 27h23m11s
+epoch  12 | lr 0.000064 |lr_p 0.000066 | batch    100 | examples/s:   1.8 | loss: 0.09524 | time elapsed: 18h32m03s | time left: 26h44m29s
+epoch  12 | lr 0.000064 |lr_p 0.000066 | batch    200 | examples/s:   1.7 | loss: 0.10692 | time elapsed: 18h48m48s | time left: 26h07m00s
+epoch  12 | lr 0.000064 |lr_p 0.000066 | batch    300 | examples/s:   1.8 | loss: 0.09493 | time elapsed: 19h05m28s | time left: 25h30m18s
+Training
+epoch  13 | lr 0.000060 |lr_p 0.000062 | batch      0 | examples/s:   1.7 | loss: 0.09206 | time elapsed: 19h14m46s | time left: 25h10m05s
+epoch  13 | lr 0.000060 |lr_p 0.000062 | batch    100 | examples/s:   1.8 | loss: 0.10650 | time elapsed: 19h31m21s | time left: 24h34m36s
+epoch  13 | lr 0.000060 |lr_p 0.000062 | batch    200 | examples/s:   1.7 | loss: 0.10627 | time elapsed: 19h48m01s | time left: 24h00m00s
+epoch  13 | lr 0.000060 |lr_p 0.000062 | batch    300 | examples/s:   1.8 | loss: 0.11095 | time elapsed: 20h04m40s | time left: 23h26m06s
+Training
+epoch  14 | lr 0.000055 |lr_p 0.000057 | batch      0 | examples/s:   1.7 | loss: 0.08826 | time elapsed: 20h13m59s | time left: 23h07m25s
+epoch  14 | lr 0.000055 |lr_p 0.000057 | batch    100 | examples/s:   1.9 | loss: 0.10031 | time elapsed: 20h30m34s | time left: 22h34m30s
+epoch  14 | lr 0.000055 |lr_p 0.000057 | batch    200 | examples/s:   1.7 | loss: 0.09455 | time elapsed: 20h47m12s | time left: 22h02m15s
+epoch  14 | lr 0.000055 |lr_p 0.000057 | batch    300 | examples/s:   1.8 | loss: 0.09320 | time elapsed: 21h03m50s | time left: 21h30m37s
+Training
+epoch  15 | lr 0.000050 |lr_p 0.000053 | batch      0 | examples/s:   1.7 | loss: 0.08850 | time elapsed: 21h13m08s | time left: 21h13m08s
+epoch  15 | lr 0.000050 |lr_p 0.000053 | batch    100 | examples/s:   1.9 | loss: 0.09175 | time elapsed: 21h29m41s | time left: 20h42m16s
+epoch  15 | lr 0.000050 |lr_p 0.000053 | batch    200 | examples/s:   1.7 | loss: 0.10031 | time elapsed: 21h46m17s | time left: 20h11m58s
+epoch  15 | lr 0.000050 |lr_p 0.000053 | batch    300 | examples/s:   1.8 | loss: 0.09251 | time elapsed: 22h02m56s | time left: 19h42m12s
+Training
+epoch  16 | lr 0.000045 |lr_p 0.000048 | batch      0 | examples/s:   1.8 | loss: 0.09840 | time elapsed: 22h12m44s | time left: 19h26m08s
+epoch  16 | lr 0.000045 |lr_p 0.000048 | batch    100 | examples/s:   1.9 | loss: 0.07826 | time elapsed: 22h29m32s | time left: 18h57m11s
+epoch  16 | lr 0.000045 |lr_p 0.000048 | batch    200 | examples/s:   1.7 | loss: 0.09019 | time elapsed: 22h46m22s | time left: 18h28m40s
+epoch  16 | lr 0.000045 |lr_p 0.000048 | batch    300 | examples/s:   1.8 | loss: 0.08160 | time elapsed: 23h03m11s | time left: 18h00m31s
+epoch  16 | lr 0.000045 |lr_p 0.000048 | batch    304 | examples/s:   1.9 | loss: 0.08942 | time elapsed: 23h04m03s | time left: 17h59m34s
+Training
+epoch  17 | lr 0.000041 |lr_p 0.000044 | batch      0 | examples/s:   1.7 | loss: 0.08353 | time elapsed: 23h13m00s | time left: 17h45m14s
+epoch  17 | lr 0.000041 |lr_p 0.000044 | batch    100 | examples/s:   1.8 | loss: 0.10012 | time elapsed: 23h29m36s | time left: 17h17m29s
+epoch  17 | lr 0.000041 |lr_p 0.000044 | batch    200 | examples/s:   1.7 | loss: 0.08278 | time elapsed: 23h46m14s | time left: 16h50m08s
+epoch  17 | lr 0.000041 |lr_p 0.000044 | batch    300 | examples/s:   1.8 | loss: 0.09174 | time elapsed: 24h02m58s | time left: 16h23m10s
+Training
+epoch  18 | lr 0.000036 |lr_p 0.000039 | batch      0 | examples/s:   1.8 | loss: 0.09354 | time elapsed: 24h12m23s | time left: 16h08m15s
+epoch  18 | lr 0.000036 |lr_p 0.000039 | batch    100 | examples/s:   1.8 | loss: 0.07116 | time elapsed: 24h28m53s | time left: 15h41m38s
+epoch  18 | lr 0.000036 |lr_p 0.000039 | batch    200 | examples/s:   1.8 | loss: 0.09953 | time elapsed: 24h45m27s | time left: 15h15m22s
+epoch  18 | lr 0.000036 |lr_p 0.000039 | batch    300 | examples/s:   1.8 | loss: 0.08365 | time elapsed: 25h02m08s | time left: 14h49m27s
+Training
+epoch  19 | lr 0.000032 |lr_p 0.000035 | batch      0 | examples/s:   1.9 | loss: 0.10707 | time elapsed: 25h11m28s | time left: 14h35m03s
+epoch  19 | lr 0.000032 |lr_p 0.000035 | batch    100 | examples/s:   1.8 | loss: 0.07519 | time elapsed: 25h28m09s | time left: 14h09m34s
+epoch  19 | lr 0.000032 |lr_p 0.000035 | batch    200 | examples/s:   1.8 | loss: 0.08659 | time elapsed: 25h44m34s | time left: 13h44m11s
+epoch  19 | lr 0.000032 |lr_p 0.000035 | batch    300 | examples/s:   1.8 | loss: 0.09461 | time elapsed: 26h01m12s | time left: 13h19m10s
+Training
+epoch  20 | lr 0.000027 |lr_p 0.000031 | batch      0 | examples/s:   1.9 | loss: 0.08545 | time elapsed: 26h10m33s | time left: 13h05m16s
+epoch  20 | lr 0.000027 |lr_p 0.000031 | batch    100 | examples/s:   1.3 | loss: 0.07199 | time elapsed: 26h29m13s | time left: 12h41m35s
+epoch  20 | lr 0.000027 |lr_p 0.000031 | batch    200 | examples/s:   1.7 | loss: 0.08534 | time elapsed: 26h57m04s | time left: 12h22m15s
+epoch  20 | lr 0.000027 |lr_p 0.000031 | batch    300 | examples/s:   1.7 | loss: 0.07677 | time elapsed: 27h15m08s | time left: 11h58m24s
+Training
+epoch  21 | lr 0.000023 |lr_p 0.000027 | batch      0 | examples/s:   1.3 | loss: 0.08880 | time elapsed: 27h25m35s | time left: 11h45m15s
+epoch  21 | lr 0.000023 |lr_p 0.000027 | batch    100 | examples/s:   1.8 | loss: 0.07594 | time elapsed: 27h43m29s | time left: 11h21m33s
+epoch  21 | lr 0.000023 |lr_p 0.000027 | batch    200 | examples/s:   1.7 | loss: 0.07702 | time elapsed: 28h00m31s | time left: 10h57m40s
+epoch  21 | lr 0.000023 |lr_p 0.000027 | batch    300 | examples/s:   1.4 | loss: 0.08347 | time elapsed: 28h19m32s | time left: 10h34m42s
+Training
+epoch  22 | lr 0.000020 |lr_p 0.000024 | batch      0 | examples/s:   1.3 | loss: 0.08074 | time elapsed: 28h32m12s | time left: 10h22m37s
+epoch  22 | lr 0.000020 |lr_p 0.000024 | batch    100 | examples/s:   1.8 | loss: 0.07473 | time elapsed: 28h51m16s | time left: 09h59m47s
+epoch  22 | lr 0.000020 |lr_p 0.000024 | batch    168 | examples/s:   1.7 | loss: 0.09047 | time elapsed: 29h03m37s | time left: 09h44m06s
+epoch  22 | lr 0.000020 |lr_p 0.000024 | batch    200 | examples/s:   1.5 | loss: 0.06906 | time elapsed: 29h14m48s | time left: 09h38m31s
+epoch  22 | lr 0.000020 |lr_p 0.000024 | batch    300 | examples/s:   1.4 | loss: 0.07606 | time elapsed: 29h53m39s | time left: 09h22m00s
+Training
+epoch  23 | lr 0.000016 |lr_p 0.000021 | batch      0 | examples/s:   1.3 | loss: 0.07831 | time elapsed: 30h15m10s | time left: 09h12m26s
+epoch  23 | lr 0.000016 |lr_p 0.000021 | batch    100 | examples/s:   1.0 | loss: 0.06794 | time elapsed: 30h53m49s | time left: 08h55m01s
+epoch  23 | lr 0.000016 |lr_p 0.000021 | batch    200 | examples/s:   1.7 | loss: 0.08495 | time elapsed: 31h15m28s | time left: 08h32m28s
+epoch  23 | lr 0.000016 |lr_p 0.000021 | batch    300 | examples/s:   1.8 | loss: 0.07784 | time elapsed: 31h32m51s | time left: 08h08m49s
+Training
+epoch  24 | lr 0.000014 |lr_p 0.000018 | batch      0 | examples/s:   1.7 | loss: 0.07371 | time elapsed: 31h42m34s | time left: 07h55m38s
+epoch  24 | lr 0.000014 |lr_p 0.000018 | batch    100 | examples/s:   1.9 | loss: 0.07139 | time elapsed: 31h59m02s | time left: 07h32m00s
+epoch  24 | lr 0.000014 |lr_p 0.000018 | batch    200 | examples/s:   1.7 | loss: 0.08554 | time elapsed: 32h16m04s | time left: 07h08m39s
+epoch  24 | lr 0.000014 |lr_p 0.000018 | batch    300 | examples/s:   1.8 | loss: 0.08751 | time elapsed: 32h32m39s | time left: 06h45m22s
+Training
+epoch  25 | lr 0.000011 |lr_p 0.000016 | batch      0 | examples/s:   1.7 | loss: 0.07459 | time elapsed: 32h41m56s | time left: 06h32m23s
+epoch  25 | lr 0.000011 |lr_p 0.000016 | batch    100 | examples/s:   1.8 | loss: 0.07627 | time elapsed: 32h58m29s | time left: 06h09m19s
+epoch  25 | lr 0.000011 |lr_p 0.000016 | batch    200 | examples/s:   1.7 | loss: 0.07747 | time elapsed: 33h15m04s | time left: 05h46m23s
+epoch  25 | lr 0.000011 |lr_p 0.000016 | batch    300 | examples/s:   1.8 | loss: 0.07146 | time elapsed: 33h31m39s | time left: 05h23m36s
+Training
+epoch  26 | lr 0.000009 |lr_p 0.000014 | batch      0 | examples/s:   1.8 | loss: 0.07177 | time elapsed: 33h40m59s | time left: 05h10m55s
+epoch  26 | lr 0.000009 |lr_p 0.000014 | batch    100 | examples/s:   1.9 | loss: 0.06910 | time elapsed: 33h57m31s | time left: 04h48m20s
+epoch  26 | lr 0.000009 |lr_p 0.000014 | batch    200 | examples/s:   1.0 | loss: 0.08629 | time elapsed: 34h22m04s | time left: 04h26m55s
+epoch  26 | lr 0.000009 |lr_p 0.000014 | batch    300 | examples/s:   1.7 | loss: 0.07881 | time elapsed: 34h54m59s | time left: 04h06m25s
+Training
+epoch  27 | lr 0.000007 |lr_p 0.000012 | batch      0 | examples/s:   1.8 | loss: 0.08249 | time elapsed: 35h12m01s | time left: 03h54m40s
+epoch  27 | lr 0.000007 |lr_p 0.000012 | batch    100 | examples/s:   1.8 | loss: 0.08500 | time elapsed: 35h41m01s | time left: 03h33m23s
+epoch  27 | lr 0.000007 |lr_p 0.000012 | batch    200 | examples/s:   1.7 | loss: 0.08437 | time elapsed: 36h06m30s | time left: 03h11m39s
+epoch  27 | lr 0.000007 |lr_p 0.000012 | batch    300 | examples/s:   1.7 | loss: 0.06827 | time elapsed: 36h24m17s | time left: 02h49m14s
+Training
+epoch  28 | lr 0.000006 |lr_p 0.000011 | batch      0 | examples/s:   1.7 | loss: 0.07678 | time elapsed: 36h34m16s | time left: 02h36m44s
+epoch  28 | lr 0.000006 |lr_p 0.000011 | batch     32 | examples/s:   1.8 | loss: 0.07792 | time elapsed: 36h39m57s | time left: 02h29m35s
+epoch  28 | lr 0.000006 |lr_p 0.000011 | batch    100 | examples/s:   1.7 | loss: 0.07558 | time elapsed: 36h51m50s | time left: 02h14m27s
+epoch  28 | lr 0.000006 |lr_p 0.000011 | batch    200 | examples/s:   1.8 | loss: 0.07336 | time elapsed: 37h09m21s | time left: 01h52m15s
+epoch  28 | lr 0.000006 |lr_p 0.000011 | batch    300 | examples/s:   1.8 | loss: 0.08525 | time elapsed: 37h26m42s | time left: 01h30m08s
+Training
+epoch  29 | lr 0.000005 |lr_p 0.000010 | batch      0 | examples/s:   1.7 | loss: 0.08178 | time elapsed: 37h36m31s | time left: 01h17m48s
+epoch  29 | lr 0.000005 |lr_p 0.000010 | batch    100 | examples/s:   1.8 | loss: 0.07277 | time elapsed: 37h53m12s | time left: 00h55m49s
+epoch  29 | lr 0.000005 |lr_p 0.000010 | batch    200 | examples/s:   1.6 | loss: 0.06962 | time elapsed: 38h09m55s | time left: 00h33m56s
+epoch  29 | lr 0.000005 |lr_p 0.000010 | batch    300 | examples/s:   1.8 | loss: 0.06335 | time elapsed: 38h26m36s | time left: 00h12m09s
+Wrote C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\loss_plots\train_loss_curves.png
+Wrote C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\loss_plots\val_loss_curves.png
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\models\weights_29
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 50/564 samples
+  Processed 100/564 samples
+  Processed 150/564 samples
+  Processed 200/564 samples
+  Processed 250/564 samples
+  Processed 300/564 samples
+  Processed 350/564 samples
+  Processed 400/564 samples
+  Processed 450/564 samples
+  Processed 500/564 samples
+  Processed 550/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.984964
+  Mean scale ratio:         0.988074
+  Mean raw-scale metrics:   abs_rel=0.1913, sq_rel=0.6602, rmse=1.6234, rmse_log=0.2640, a1=0.7968, a2=0.9434, a3=0.9753
+  Mean median-scaled metrics: abs_rel=0.1933, sq_rel=0.6410, rmse=1.6520, rmse_log=0.2663, a1=0.7805, a2=0.9421, a3=0.9752
+  Timing:
+    model_load_seconds:        10.803
+    evaluation_loop_seconds:   129.719
+    total_run_seconds:         140.626
+    metric_samples_per_second: 4.348
+    model_forward_fps:         15.285
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\val_lite-mono_full_per_sample.csv
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             test
+  Split samples:     407
+  Inspecting:        407
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\models\weights_29
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 50/407 samples
+  Processed 100/407 samples
+  Processed 150/407 samples
+  Processed 200/407 samples
+  Processed 250/407 samples
+  Processed 300/407 samples
+  Processed 350/407 samples
+  Processed 400/407 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        407
+  Samples with metrics:     407
+  Total valid pixels:       137734438
+  Mean valid fraction:      36.7203%
+  Median scale ratio:       1.006126
+  Mean scale ratio:         0.993979
+  Mean raw-scale metrics:   abs_rel=0.1741, sq_rel=0.6333, rmse=1.8791, rmse_log=0.2534, a1=0.8186, a2=0.9465, a3=0.9760
+  Mean median-scaled metrics: abs_rel=0.1791, sq_rel=0.6028, rmse=1.8954, rmse_log=0.2558, a1=0.8001, a2=0.9427, a3=0.9755
+  Timing:
+    model_load_seconds:        3.162
+    evaluation_loop_seconds:   105.261
+    total_run_seconds:         108.507
+    metric_samples_per_second: 3.867
+    model_forward_fps:         15.648
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\test_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\test_lite-mono_full_per_sample.csv
+Citrus baseline result visual analyzer
+  Split:          val
+  Rows:           564
+  Selection metric: median_scaled_a1
+  Device:         cuda
+  Output dir:     C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\single_model_val
+  Rendering good: index=44, median_scaled_a1=0.9193
+  Rendering typical: index=514, median_scaled_a1=0.8010
+  Rendering bad: index=200, median_scaled_a1=0.1757
+Saved analysis outputs
+  Selection JSON: C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\single_model_val\val_lite-mono_median_scaled_a1_selection_summary.json
+  Selection CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\single_model_val\val_lite-mono_median_scaled_a1_selection_summary.csv
+  Panel:          C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\single_model_val\good_index_0044_median_scaled_a1_0.919.png
+  Panel:          C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\single_model_val\typical_index_0514_median_scaled_a1_0.801.png
+  Panel:          C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\single_model_val\bad_index_0200_median_scaled_a1_0.176.png
+Citrus baseline result visual analyzer
+  Split:          test
+  Rows:           407
+  Selection metric: median_scaled_a1
+  Device:         cuda
+  Output dir:     C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\single_model_test
+  Rendering good: index=57, median_scaled_a1=0.9174
+  Rendering typical: index=113, median_scaled_a1=0.8392
+  Rendering bad: index=343, median_scaled_a1=0.0743
+Saved analysis outputs
+  Selection JSON: C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\single_model_test\test_lite-mono_median_scaled_a1_selection_summary.json
+  Selection CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\single_model_test\test_lite-mono_median_scaled_a1_selection_summary.csv
+  Panel:          C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\single_model_test\good_index_0057_median_scaled_a1_0.917.png
+  Panel:          C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\single_model_test\typical_index_0113_median_scaled_a1_0.839.png
+  Panel:          C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\single_model_test\bad_index_0343_median_scaled_a1_0.074.png
+Wrote C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\baseline_vs_hybrid_val\val_phase2_comparison_summary.json
+Wrote C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\baseline_vs_hybrid_val\val_phase2_comparison_summary.csv
+Panel: C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\baseline_vs_hybrid_val\bad_index_0200_comparison.png
+Panel: C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\baseline_vs_hybrid_val\typical_index_0309_comparison.png
+Panel: C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\baseline_vs_hybrid_val\good_index_0044_comparison.png
+Wrote C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\baseline_vs_hybrid_test\test_phase2_comparison_summary.json
+Wrote C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\baseline_vs_hybrid_test\test_phase2_comparison_summary.csv
+Panel: C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\baseline_vs_hybrid_test\bad_index_0343_comparison.png
+Panel: C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\baseline_vs_hybrid_test\typical_index_0113_comparison.png
+Panel: C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\results\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\visuals\baseline_vs_hybrid_test\good_index_0057_comparison.png
+**********************
+Windows PowerShell transcript end
+End time: 20260521232145
+**********************

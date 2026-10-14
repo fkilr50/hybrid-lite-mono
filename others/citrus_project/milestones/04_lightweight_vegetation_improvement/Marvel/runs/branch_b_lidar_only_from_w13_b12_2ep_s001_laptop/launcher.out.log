@@ -1,0 +1,34 @@
+loading model from folder citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs/hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched/models/weights_13
+Loading encoder weights...
+Loading depth weights...
+Skipping Adam weights; optimizer is freshly initialized
+Training model named:
+   branch_b_lidar_only_from_w13_b12_2ep_s001_laptop
+Models and tensorboard events files are saved to:
+   citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs
+Training is using:
+   cuda
+Using split:
+   citrus_prepared
+There are 4275 training items and 560 validation items
+
+Training
+epoch   0 | lr 0.000100 |lr_p 0.000000 | batch      0 | examples/s:   4.3 | loss: 0.00446 | time elapsed: 00h00m12s | time left: 00h00m00s
+epoch   0 | lr 0.000100 |lr_p 0.000000 | batch     50 | examples/s:  22.7 | loss: 0.00504 | time elapsed: 00h05m13s | time left: 01h09m12s
+epoch   0 | lr 0.000100 |lr_p 0.000000 | batch    100 | examples/s:  21.0 | loss: 0.00500 | time elapsed: 00h13m59s | time left: 01h25m39s
+epoch   0 | lr 0.000100 |lr_p 0.000000 | batch    150 | examples/s:  20.6 | loss: 0.00420 | time elapsed: 00h22m49s | time left: 01h25m30s
+epoch   0 | lr 0.000100 |lr_p 0.000000 | batch    200 | examples/s:  22.3 | loss: 0.00482 | time elapsed: 00h31m29s | time left: 01h20m37s
+epoch   0 | lr 0.000100 |lr_p 0.000000 | batch    250 | examples/s:  45.3 | loss: 0.00449 | time elapsed: 00h38m10s | time left: 01h10m31s
+epoch   0 | lr 0.000100 |lr_p 0.000000 | batch    300 | examples/s:  37.9 | loss: 0.00522 | time elapsed: 00h41m02s | time left: 00h56m22s
+epoch   0 | lr 0.000100 |lr_p 0.000000 | batch    350 | examples/s:  34.1 | loss: 0.00514 | time elapsed: 00h43m56s | time left: 00h45m27s
+Training
+epoch   1 | lr 0.000099 |lr_p 0.000000 | batch      0 | examples/s:  41.6 | loss: 0.00481 | time elapsed: 00h44m23s | time left: 00h44m23s
+epoch   1 | lr 0.000099 |lr_p 0.000000 | batch     50 | examples/s:  40.0 | loss: 0.00422 | time elapsed: 00h47m20s | time left: 00h35m41s
+epoch   1 | lr 0.000099 |lr_p 0.000000 | batch    100 | examples/s:  30.4 | loss: 0.00445 | time elapsed: 00h51m07s | time left: 00h28m42s
+epoch   1 | lr 0.000099 |lr_p 0.000000 | batch    150 | examples/s:  31.1 | loss: 0.00418 | time elapsed: 00h54m48s | time left: 00h22m18s
+epoch   1 | lr 0.000099 |lr_p 0.000000 | batch    200 | examples/s:  38.6 | loss: 0.00478 | time elapsed: 00h58m35s | time left: 00h16m26s
+epoch   1 | lr 0.000099 |lr_p 0.000000 | batch    250 | examples/s:  36.5 | loss: 0.00353 | time elapsed: 01h02m13s | time left: 00h10m53s
+epoch   1 | lr 0.000099 |lr_p 0.000000 | batch    300 | examples/s:  33.7 | loss: 0.00480 | time elapsed: 01h05m49s | time left: 00h05m37s
+epoch   1 | lr 0.000099 |lr_p 0.000000 | batch    350 | examples/s:  30.8 | loss: 0.00446 | time elapsed: 01h09m23s | time left: 00h00m35s
+Wrote C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_2ep_s001_laptop\loss_plots\train_loss_curves.png
+Wrote C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_2ep_s001_laptop\loss_plots\val_loss_curves.png

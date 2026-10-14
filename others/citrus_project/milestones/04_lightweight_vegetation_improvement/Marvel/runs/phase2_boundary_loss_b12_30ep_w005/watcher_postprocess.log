@@ -1,0 +1,5 @@
+[2026-05-15 23:54:20] Watcher started for PID 6928.
+[2026-05-15 23:54:20] Training process is still running; waiting for it to exit.
+[2026-05-18 00:38:30] Training process exited.
+[2026-05-18 00:38:30] Found final checkpoint at C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\phase2_boundary_loss_b12_30ep_w005\models\weights_29. Starting postprocess.
+[2026-05-18 00:48:03] Postprocess command finished with exit code 0.

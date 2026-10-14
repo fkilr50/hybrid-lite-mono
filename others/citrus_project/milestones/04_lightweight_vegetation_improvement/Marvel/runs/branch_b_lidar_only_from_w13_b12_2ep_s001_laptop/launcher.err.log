@@ -1,0 +1,10 @@
+python.exe : C:\Proj\miniforge3\envs\lite-mono\python.exe: can't open file 
+'C:\Proj\lite-Mono\citrus_project\milestones\01_original_lite_mono_baseline\evaluate_lite_mono_citrus.py': [Errno 2] 
+No such file or directory
+At C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_onl
+y_continued\run_branch_b_2ep_smoke_eval_laptop.ps1:66 char:1
++ & $Python citrus_project/milestones/01_original_lite_mono_baseline/ev ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Proj\minifor...le or directory:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

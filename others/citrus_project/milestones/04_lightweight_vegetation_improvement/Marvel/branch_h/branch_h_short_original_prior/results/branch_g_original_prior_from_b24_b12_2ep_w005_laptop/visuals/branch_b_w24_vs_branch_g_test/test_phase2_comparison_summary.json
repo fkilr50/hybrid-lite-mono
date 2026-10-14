@@ -1,0 +1,44 @@
+[
+  {
+    "role": "bad",
+    "index": 105,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-29-41_6_bag_1689715810447553560.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\branch_g\\branch_g_original_prior\\results\\branch_g_original_prior_from_b24_b12_2ep_w005_laptop\\visuals\\branch_b_w24_vs_branch_g_test\\bad_index_0105_comparison.png",
+    "baseline_scale_ratio": 0.6405460116558,
+    "phase2_scale_ratio": 0.6318959110036518,
+    "baseline_median_scaled_abs_rel": 0.6235448807499144,
+    "baseline_median_scaled_a1": 0.06672351062028044,
+    "phase2_median_scaled_abs_rel": 0.6402947973428113,
+    "phase2_median_scaled_a1": 0.07301041295574932,
+    "phase2_minus_baseline_abs_rel": 0.01674991659289682,
+    "phase2_minus_baseline_a1": 0.006286902335468886
+  },
+  {
+    "role": "typical",
+    "index": 174,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-26-49_0_bag_1689715615838526328.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\branch_g\\branch_g_original_prior\\results\\branch_g_original_prior_from_b24_b12_2ep_w005_laptop\\visuals\\branch_b_w24_vs_branch_g_test\\typical_index_0174_comparison.png",
+    "baseline_scale_ratio": 1.0321960665499632,
+    "phase2_scale_ratio": 1.0141331926120762,
+    "baseline_median_scaled_abs_rel": 0.1257335599453972,
+    "baseline_median_scaled_a1": 0.8609675862192265,
+    "phase2_median_scaled_abs_rel": 0.12088584761442728,
+    "phase2_median_scaled_a1": 0.8765278696535737,
+    "phase2_minus_baseline_abs_rel": -0.004847712330969922,
+    "phase2_minus_baseline_a1": 0.015560283434347122
+  },
+  {
+    "role": "good",
+    "index": 308,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-28-44_4_bag_1689715743248279928.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\branch_g\\branch_g_original_prior\\results\\branch_g_original_prior_from_b24_b12_2ep_w005_laptop\\visuals\\branch_b_w24_vs_branch_g_test\\good_index_0308_comparison.png",
+    "baseline_scale_ratio": 1.0284636412796258,
+    "phase2_scale_ratio": 1.0122239758743201,
+    "baseline_median_scaled_abs_rel": 0.0858213048567496,
+    "baseline_median_scaled_a1": 0.9475630385529072,
+    "phase2_median_scaled_abs_rel": 0.07766378867490005,
+    "phase2_median_scaled_a1": 0.955605835760829,
+    "phase2_minus_baseline_abs_rel": -0.008157516181849553,
+    "phase2_minus_baseline_a1": 0.008042797207921781
+  }
+]

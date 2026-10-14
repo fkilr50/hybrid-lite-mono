@@ -1,0 +1,1581 @@
+Branch C validation sweep started 2026-06-09T16:57:04
+Evaluating val weights_0 2026-06-09T16:57:04
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_0
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_0
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.981317
+  Mean scale ratio:         0.988421
+  Mean raw-scale metrics:   abs_rel=0.1678, sq_rel=0.5705, rmse=1.6695, rmse_log=0.2534, a1=0.8385, a2=0.9501, a3=0.9769
+  Mean median-scaled metrics: abs_rel=0.1702, sq_rel=0.5669, rmse=1.6929, rmse_log=0.2547, a1=0.8308, a2=0.9497, a3=0.9769
+  Timing:
+    model_load_seconds:        20.716
+    evaluation_loop_seconds:   275.130
+    total_run_seconds:         295.955
+    metric_samples_per_second: 2.050
+    model_forward_fps:         13.075
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_0\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_0\val_lite-mono_full_per_sample.csv
+Evaluating val weights_1 2026-06-09T17:02:03
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_1
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_1
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.987488
+  Mean scale ratio:         0.994626
+  Mean raw-scale metrics:   abs_rel=0.1682, sq_rel=0.5996, rmse=1.6590, rmse_log=0.2471, a1=0.8465, a2=0.9533, a3=0.9782
+  Mean median-scaled metrics: abs_rel=0.1717, sq_rel=0.5938, rmse=1.6779, rmse_log=0.2487, a1=0.8380, a2=0.9526, a3=0.9783
+  Timing:
+    model_load_seconds:        5.915
+    evaluation_loop_seconds:   246.671
+    total_run_seconds:         252.654
+    metric_samples_per_second: 2.286
+    model_forward_fps:         12.578
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_1\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_1\val_lite-mono_full_per_sample.csv
+Evaluating val weights_2 2026-06-09T17:06:18
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_2
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_2
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.991109
+  Mean scale ratio:         0.999639
+  Mean raw-scale metrics:   abs_rel=0.1586, sq_rel=0.5039, rmse=1.6686, rmse_log=0.2477, a1=0.8457, a2=0.9528, a3=0.9779
+  Mean median-scaled metrics: abs_rel=0.1633, sq_rel=0.5109, rmse=1.6900, rmse_log=0.2492, a1=0.8374, a2=0.9527, a3=0.9780
+  Timing:
+    model_load_seconds:        5.464
+    evaluation_loop_seconds:   231.439
+    total_run_seconds:         236.971
+    metric_samples_per_second: 2.437
+    model_forward_fps:         13.292
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_2\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_2\val_lite-mono_full_per_sample.csv
+Evaluating val weights_3 2026-06-09T17:10:16
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_3
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_3
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.986793
+  Mean scale ratio:         0.998282
+  Mean raw-scale metrics:   abs_rel=0.1615, sq_rel=0.5276, rmse=1.6299, rmse_log=0.2434, a1=0.8471, a2=0.9555, a3=0.9793
+  Mean median-scaled metrics: abs_rel=0.1662, sq_rel=0.5365, rmse=1.6492, rmse_log=0.2451, a1=0.8399, a2=0.9553, a3=0.9795
+  Timing:
+    model_load_seconds:        5.313
+    evaluation_loop_seconds:   242.649
+    total_run_seconds:         248.030
+    metric_samples_per_second: 2.324
+    model_forward_fps:         12.543
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_3\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_3\val_lite-mono_full_per_sample.csv
+Evaluating val weights_4 2026-06-09T17:14:26
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_4
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_4
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.986963
+  Mean scale ratio:         0.995028
+  Mean raw-scale metrics:   abs_rel=0.1616, sq_rel=0.5605, rmse=1.6079, rmse_log=0.2431, a1=0.8511, a2=0.9557, a3=0.9793
+  Mean median-scaled metrics: abs_rel=0.1644, sq_rel=0.5571, rmse=1.6267, rmse_log=0.2437, a1=0.8464, a2=0.9562, a3=0.9798
+  Timing:
+    model_load_seconds:        3.732
+    evaluation_loop_seconds:   230.509
+    total_run_seconds:         234.308
+    metric_samples_per_second: 2.447
+    model_forward_fps:         14.071
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_4\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_4\val_lite-mono_full_per_sample.csv
+Evaluating val weights_5 2026-06-09T17:18:22
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_5
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_5
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.983068
+  Mean scale ratio:         0.989959
+  Mean raw-scale metrics:   abs_rel=0.1630, sq_rel=0.6006, rmse=1.5980, rmse_log=0.2433, a1=0.8546, a2=0.9565, a3=0.9796
+  Mean median-scaled metrics: abs_rel=0.1645, sq_rel=0.5935, rmse=1.6183, rmse_log=0.2439, a1=0.8495, a2=0.9567, a3=0.9799
+  Timing:
+    model_load_seconds:        4.234
+    evaluation_loop_seconds:   211.414
+    total_run_seconds:         215.715
+    metric_samples_per_second: 2.668
+    model_forward_fps:         14.918
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_5\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_5\val_lite-mono_full_per_sample.csv
+Evaluating val weights_6 2026-06-09T17:21:59
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_6
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_6
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       1.017634
+  Mean scale ratio:         1.022872
+  Mean raw-scale metrics:   abs_rel=0.1630, sq_rel=0.6410, rmse=1.5967, rmse_log=0.2418, a1=0.8554, a2=0.9591, a3=0.9804
+  Mean median-scaled metrics: abs_rel=0.1699, sq_rel=0.6694, rmse=1.6175, rmse_log=0.2435, a1=0.8497, a2=0.9583, a3=0.9805
+  Timing:
+    model_load_seconds:        4.616
+    evaluation_loop_seconds:   231.936
+    total_run_seconds:         236.619
+    metric_samples_per_second: 2.432
+    model_forward_fps:         12.615
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_6\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_6\val_lite-mono_full_per_sample.csv
+Evaluating val weights_7 2026-06-09T17:25:57
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_7
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_7
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       1.024394
+  Mean scale ratio:         1.031476
+  Mean raw-scale metrics:   abs_rel=0.1577, sq_rel=0.5909, rmse=1.5991, rmse_log=0.2407, a1=0.8579, a2=0.9589, a3=0.9802
+  Mean median-scaled metrics: abs_rel=0.1621, sq_rel=0.6126, rmse=1.6082, rmse_log=0.2403, a1=0.8557, a2=0.9585, a3=0.9807
+  Timing:
+    model_load_seconds:        4.033
+    evaluation_loop_seconds:   232.131
+    total_run_seconds:         236.228
+    metric_samples_per_second: 2.430
+    model_forward_fps:         12.479
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_7\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_7\val_lite-mono_full_per_sample.csv
+Evaluating val weights_8 2026-06-09T17:29:55
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_8
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_8
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       1.002228
+  Mean scale ratio:         1.008579
+  Mean raw-scale metrics:   abs_rel=0.1577, sq_rel=0.5545, rmse=1.5976, rmse_log=0.2389, a1=0.8577, a2=0.9585, a3=0.9802
+  Mean median-scaled metrics: abs_rel=0.1615, sq_rel=0.5638, rmse=1.6107, rmse_log=0.2395, a1=0.8539, a2=0.9585, a3=0.9805
+  Timing:
+    model_load_seconds:        3.910
+    evaluation_loop_seconds:   231.796
+    total_run_seconds:         235.773
+    metric_samples_per_second: 2.433
+    model_forward_fps:         12.372
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_8\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_8\val_lite-mono_full_per_sample.csv
+Evaluating val weights_9 2026-06-09T17:33:53
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_9
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_9
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.996105
+  Mean scale ratio:         1.000489
+  Mean raw-scale metrics:   abs_rel=0.1585, sq_rel=0.5443, rmse=1.5917, rmse_log=0.2373, a1=0.8610, a2=0.9583, a3=0.9801
+  Mean median-scaled metrics: abs_rel=0.1611, sq_rel=0.5398, rmse=1.6049, rmse_log=0.2380, a1=0.8544, a2=0.9584, a3=0.9805
+  Timing:
+    model_load_seconds:        3.511
+    evaluation_loop_seconds:   234.130
+    total_run_seconds:         237.706
+    metric_samples_per_second: 2.409
+    model_forward_fps:         12.143
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_9\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_9\val_lite-mono_full_per_sample.csv
+Evaluating val weights_10 2026-06-09T17:37:52
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_10
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_10
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       1.007032
+  Mean scale ratio:         1.010984
+  Mean raw-scale metrics:   abs_rel=0.1632, sq_rel=0.5701, rmse=1.5904, rmse_log=0.2401, a1=0.8547, a2=0.9576, a3=0.9798
+  Mean median-scaled metrics: abs_rel=0.1647, sq_rel=0.5721, rmse=1.5961, rmse_log=0.2395, a1=0.8509, a2=0.9579, a3=0.9803
+  Timing:
+    model_load_seconds:        3.575
+    evaluation_loop_seconds:   231.838
+    total_run_seconds:         235.478
+    metric_samples_per_second: 2.433
+    model_forward_fps:         12.381
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_10\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_10\val_lite-mono_full_per_sample.csv
+Evaluating val weights_11 2026-06-09T17:41:49
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_11
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_11
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.995046
+  Mean scale ratio:         1.003818
+  Mean raw-scale metrics:   abs_rel=0.1596, sq_rel=0.5712, rmse=1.5718, rmse_log=0.2378, a1=0.8596, a2=0.9588, a3=0.9804
+  Mean median-scaled metrics: abs_rel=0.1633, sq_rel=0.5777, rmse=1.5876, rmse_log=0.2387, a1=0.8549, a2=0.9590, a3=0.9807
+  Timing:
+    model_load_seconds:        3.657
+    evaluation_loop_seconds:   231.015
+    total_run_seconds:         234.738
+    metric_samples_per_second: 2.441
+    model_forward_fps:         12.506
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_11\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_11\val_lite-mono_full_per_sample.csv
+Evaluating val weights_12 2026-06-09T17:45:45
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_12
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_12
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       1.025628
+  Mean scale ratio:         1.031731
+  Mean raw-scale metrics:   abs_rel=0.1580, sq_rel=0.5436, rmse=1.5746, rmse_log=0.2394, a1=0.8610, a2=0.9597, a3=0.9801
+  Mean median-scaled metrics: abs_rel=0.1624, sq_rel=0.5695, rmse=1.5818, rmse_log=0.2391, a1=0.8570, a2=0.9589, a3=0.9806
+  Timing:
+    model_load_seconds:        3.848
+    evaluation_loop_seconds:   232.040
+    total_run_seconds:         235.954
+    metric_samples_per_second: 2.431
+    model_forward_fps:         12.440
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_12\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_12\val_lite-mono_full_per_sample.csv
+Evaluating val weights_13 2026-06-09T17:49:43
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_13
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_13
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.995202
+  Mean scale ratio:         0.999109
+  Mean raw-scale metrics:   abs_rel=0.1626, sq_rel=0.6185, rmse=1.5536, rmse_log=0.2387, a1=0.8631, a2=0.9586, a3=0.9800
+  Mean median-scaled metrics: abs_rel=0.1649, sq_rel=0.6082, rmse=1.5692, rmse_log=0.2392, a1=0.8576, a2=0.9588, a3=0.9804
+  Timing:
+    model_load_seconds:        3.518
+    evaluation_loop_seconds:   234.905
+    total_run_seconds:         238.489
+    metric_samples_per_second: 2.401
+    model_forward_fps:         12.267
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_13\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_13\val_lite-mono_full_per_sample.csv
+Evaluating val weights_14 2026-06-09T17:53:43
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_14
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_14
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       1.015899
+  Mean scale ratio:         1.024177
+  Mean raw-scale metrics:   abs_rel=0.1539, sq_rel=0.5525, rmse=1.5634, rmse_log=0.2374, a1=0.8636, a2=0.9600, a3=0.9806
+  Mean median-scaled metrics: abs_rel=0.1595, sq_rel=0.5748, rmse=1.5715, rmse_log=0.2378, a1=0.8601, a2=0.9596, a3=0.9809
+  Timing:
+    model_load_seconds:        3.917
+    evaluation_loop_seconds:   231.197
+    total_run_seconds:         235.182
+    metric_samples_per_second: 2.439
+    model_forward_fps:         12.508
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_14\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_14\val_lite-mono_full_per_sample.csv
+Evaluating val weights_15 2026-06-09T17:57:40
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_15
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_15
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.993227
+  Mean scale ratio:         1.000828
+  Mean raw-scale metrics:   abs_rel=0.1582, sq_rel=0.5853, rmse=1.5563, rmse_log=0.2369, a1=0.8627, a2=0.9595, a3=0.9806
+  Mean median-scaled metrics: abs_rel=0.1611, sq_rel=0.5848, rmse=1.5709, rmse_log=0.2374, a1=0.8593, a2=0.9598, a3=0.9810
+  Timing:
+    model_load_seconds:        3.789
+    evaluation_loop_seconds:   232.051
+    total_run_seconds:         235.905
+    metric_samples_per_second: 2.431
+    model_forward_fps:         12.314
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_15\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_15\val_lite-mono_full_per_sample.csv
+Evaluating val weights_16 2026-06-09T18:01:37
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_16
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_16
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.998615
+  Mean scale ratio:         1.005062
+  Mean raw-scale metrics:   abs_rel=0.1557, sq_rel=0.5335, rmse=1.5757, rmse_log=0.2387, a1=0.8619, a2=0.9580, a3=0.9798
+  Mean median-scaled metrics: abs_rel=0.1582, sq_rel=0.5356, rmse=1.5871, rmse_log=0.2384, a1=0.8602, a2=0.9590, a3=0.9803
+  Timing:
+    model_load_seconds:        3.785
+    evaluation_loop_seconds:   232.474
+    total_run_seconds:         236.325
+    metric_samples_per_second: 2.426
+    model_forward_fps:         12.397
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_16\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_16\val_lite-mono_full_per_sample.csv
+Evaluating val weights_17 2026-06-09T18:05:35
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_17
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_17
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.991897
+  Mean scale ratio:         0.996787
+  Mean raw-scale metrics:   abs_rel=0.1568, sq_rel=0.5576, rmse=1.5545, rmse_log=0.2354, a1=0.8648, a2=0.9593, a3=0.9805
+  Mean median-scaled metrics: abs_rel=0.1586, sq_rel=0.5490, rmse=1.5684, rmse_log=0.2355, a1=0.8613, a2=0.9600, a3=0.9811
+  Timing:
+    model_load_seconds:        3.590
+    evaluation_loop_seconds:   222.736
+    total_run_seconds:         226.393
+    metric_samples_per_second: 2.532
+    model_forward_fps:         13.573
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_17\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_17\val_lite-mono_full_per_sample.csv
+Evaluating val weights_18 2026-06-09T18:09:23
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_18
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_18
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       1.003966
+  Mean scale ratio:         1.010444
+  Mean raw-scale metrics:   abs_rel=0.1552, sq_rel=0.5422, rmse=1.5618, rmse_log=0.2359, a1=0.8647, a2=0.9599, a3=0.9805
+  Mean median-scaled metrics: abs_rel=0.1577, sq_rel=0.5449, rmse=1.5677, rmse_log=0.2356, a1=0.8627, a2=0.9602, a3=0.9810
+  Timing:
+    model_load_seconds:        4.503
+    evaluation_loop_seconds:   223.422
+    total_run_seconds:         227.993
+    metric_samples_per_second: 2.524
+    model_forward_fps:         13.370
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_18\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_18\val_lite-mono_full_per_sample.csv
+Evaluating val weights_19 2026-06-09T18:13:12
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_19
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_19
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.987983
+  Mean scale ratio:         0.994512
+  Mean raw-scale metrics:   abs_rel=0.1574, sq_rel=0.5850, rmse=1.5443, rmse_log=0.2358, a1=0.8661, a2=0.9596, a3=0.9805
+  Mean median-scaled metrics: abs_rel=0.1590, sq_rel=0.5763, rmse=1.5599, rmse_log=0.2358, a1=0.8634, a2=0.9604, a3=0.9810
+  Timing:
+    model_load_seconds:        3.918
+    evaluation_loop_seconds:   225.718
+    total_run_seconds:         229.704
+    metric_samples_per_second: 2.499
+    model_forward_fps:         13.113
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_19\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_19\val_lite-mono_full_per_sample.csv
+Evaluating val weights_20 2026-06-09T18:17:04
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_20
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_20
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       1.009993
+  Mean scale ratio:         1.015397
+  Mean raw-scale metrics:   abs_rel=0.1552, sq_rel=0.5609, rmse=1.5497, rmse_log=0.2364, a1=0.8659, a2=0.9601, a3=0.9806
+  Mean median-scaled metrics: abs_rel=0.1590, sq_rel=0.5687, rmse=1.5604, rmse_log=0.2364, a1=0.8639, a2=0.9603, a3=0.9811
+  Timing:
+    model_load_seconds:        3.723
+    evaluation_loop_seconds:   240.821
+    total_run_seconds:         244.609
+    metric_samples_per_second: 2.342
+    model_forward_fps:         12.557
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_20\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_20\val_lite-mono_full_per_sample.csv
+Evaluating val weights_21 2026-06-09T18:21:10
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_21
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_21
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.995336
+  Mean scale ratio:         1.002458
+  Mean raw-scale metrics:   abs_rel=0.1588, sq_rel=0.5703, rmse=1.5506, rmse_log=0.2368, a1=0.8638, a2=0.9594, a3=0.9803
+  Mean median-scaled metrics: abs_rel=0.1612, sq_rel=0.5682, rmse=1.5634, rmse_log=0.2370, a1=0.8597, a2=0.9596, a3=0.9807
+  Timing:
+    model_load_seconds:        5.460
+    evaluation_loop_seconds:   231.985
+    total_run_seconds:         237.511
+    metric_samples_per_second: 2.431
+    model_forward_fps:         12.706
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_21\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_21\val_lite-mono_full_per_sample.csv
+Evaluating val weights_22 2026-06-09T18:25:09
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_22
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_22
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       1.006539
+  Mean scale ratio:         1.012822
+  Mean raw-scale metrics:   abs_rel=0.1530, sq_rel=0.5458, rmse=1.5562, rmse_log=0.2364, a1=0.8664, a2=0.9601, a3=0.9807
+  Mean median-scaled metrics: abs_rel=0.1574, sq_rel=0.5556, rmse=1.5688, rmse_log=0.2368, a1=0.8634, a2=0.9605, a3=0.9811
+  Timing:
+    model_load_seconds:        3.894
+    evaluation_loop_seconds:   227.270
+    total_run_seconds:         231.229
+    metric_samples_per_second: 2.482
+    model_forward_fps:         12.699
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_22\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_22\val_lite-mono_full_per_sample.csv
+Evaluating val weights_23 2026-06-09T18:29:02
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_23
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_23
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.998117
+  Mean scale ratio:         1.003576
+  Mean raw-scale metrics:   abs_rel=0.1554, sq_rel=0.5564, rmse=1.5533, rmse_log=0.2359, a1=0.8669, a2=0.9599, a3=0.9806
+  Mean median-scaled metrics: abs_rel=0.1582, sq_rel=0.5555, rmse=1.5655, rmse_log=0.2361, a1=0.8633, a2=0.9604, a3=0.9810
+  Timing:
+    model_load_seconds:        3.827
+    evaluation_loop_seconds:   232.029
+    total_run_seconds:         235.923
+    metric_samples_per_second: 2.431
+    model_forward_fps:         12.405
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_23\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_23\val_lite-mono_full_per_sample.csv
+Evaluating val weights_24 2026-06-09T18:32:59
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_24
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_24
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.999245
+  Mean scale ratio:         1.004417
+  Mean raw-scale metrics:   abs_rel=0.1531, sq_rel=0.5362, rmse=1.5621, rmse_log=0.2360, a1=0.8673, a2=0.9600, a3=0.9805
+  Mean median-scaled metrics: abs_rel=0.1562, sq_rel=0.5363, rmse=1.5745, rmse_log=0.2362, a1=0.8641, a2=0.9605, a3=0.9811
+  Timing:
+    model_load_seconds:        3.736
+    evaluation_loop_seconds:   229.870
+    total_run_seconds:         233.672
+    metric_samples_per_second: 2.454
+    model_forward_fps:         12.739
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_24\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_24\val_lite-mono_full_per_sample.csv
+Evaluating val weights_25 2026-06-09T18:36:55
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_25
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_25
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.993881
+  Mean scale ratio:         1.000055
+  Mean raw-scale metrics:   abs_rel=0.1556, sq_rel=0.5575, rmse=1.5457, rmse_log=0.2357, a1=0.8669, a2=0.9601, a3=0.9806
+  Mean median-scaled metrics: abs_rel=0.1581, sq_rel=0.5547, rmse=1.5595, rmse_log=0.2358, a1=0.8639, a2=0.9606, a3=0.9811
+  Timing:
+    model_load_seconds:        5.037
+    evaluation_loop_seconds:   232.974
+    total_run_seconds:         238.079
+    metric_samples_per_second: 2.421
+    model_forward_fps:         12.271
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_25\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_25\val_lite-mono_full_per_sample.csv
+Evaluating val weights_26 2026-06-09T18:40:54
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_26
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_26
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.991896
+  Mean scale ratio:         0.998723
+  Mean raw-scale metrics:   abs_rel=0.1572, sq_rel=0.5893, rmse=1.5450, rmse_log=0.2370, a1=0.8676, a2=0.9600, a3=0.9805
+  Mean median-scaled metrics: abs_rel=0.1596, sq_rel=0.5851, rmse=1.5602, rmse_log=0.2371, a1=0.8647, a2=0.9606, a3=0.9810
+  Timing:
+    model_load_seconds:        3.723
+    evaluation_loop_seconds:   233.008
+    total_run_seconds:         236.797
+    metric_samples_per_second: 2.421
+    model_forward_fps:         12.408
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_26\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_26\val_lite-mono_full_per_sample.csv
+Evaluating val weights_27 2026-06-09T18:44:53
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_27
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_27
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.993039
+  Mean scale ratio:         1.000198
+  Mean raw-scale metrics:   abs_rel=0.1554, sq_rel=0.5669, rmse=1.5455, rmse_log=0.2358, a1=0.8676, a2=0.9602, a3=0.9806
+  Mean median-scaled metrics: abs_rel=0.1581, sq_rel=0.5640, rmse=1.5601, rmse_log=0.2361, a1=0.8645, a2=0.9607, a3=0.9811
+  Timing:
+    model_load_seconds:        3.908
+    evaluation_loop_seconds:   232.670
+    total_run_seconds:         236.644
+    metric_samples_per_second: 2.424
+    model_forward_fps:         12.359
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_27\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_27\val_lite-mono_full_per_sample.csv
+Evaluating val weights_28 2026-06-09T18:48:51
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_28
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_28
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.996548
+  Mean scale ratio:         1.003379
+  Mean raw-scale metrics:   abs_rel=0.1551, sq_rel=0.5605, rmse=1.5484, rmse_log=0.2360, a1=0.8671, a2=0.9600, a3=0.9805
+  Mean median-scaled metrics: abs_rel=0.1580, sq_rel=0.5607, rmse=1.5617, rmse_log=0.2362, a1=0.8642, a2=0.9605, a3=0.9810
+  Timing:
+    model_load_seconds:        3.562
+    evaluation_loop_seconds:   233.579
+    total_run_seconds:         237.208
+    metric_samples_per_second: 2.415
+    model_forward_fps:         12.307
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_28\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_28\val_lite-mono_full_per_sample.csv
+Evaluating val weights_29 2026-06-09T18:52:50
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_29
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_29
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/564 samples
+  Processed 200/564 samples
+  Processed 300/564 samples
+  Processed 400/564 samples
+  Processed 500/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.988273
+  Mean scale ratio:         0.994953
+  Mean raw-scale metrics:   abs_rel=0.1561, sq_rel=0.5687, rmse=1.5417, rmse_log=0.2359, a1=0.8668, a2=0.9599, a3=0.9807
+  Mean median-scaled metrics: abs_rel=0.1581, sq_rel=0.5612, rmse=1.5577, rmse_log=0.2360, a1=0.8640, a2=0.9607, a3=0.9812
+  Timing:
+    model_load_seconds:        3.695
+    evaluation_loop_seconds:   232.354
+    total_run_seconds:         236.114
+    metric_samples_per_second: 2.427
+    model_forward_fps:         12.596
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_29\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val\weights_29\val_lite-mono_full_per_sample.csv
+Wrote citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val_sweep_summary.csv
+Wrote citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\val_sweep_summary.json
+Best raw abs_rel: weights_22 0.15297764818721374 raw a1: 0.8663598686335823
+Best median abs_rel: weights_24 0.15621729618159313 median a1: 0.8640705870457351
+Test-confirm checkpoints: weights_14, weights_18, weights_22, weights_24, weights_29
+Evaluating test weights_14 2026-06-09T18:56:48
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             test
+  Split samples:     407
+  Inspecting:        407
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm\weights_14
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_14
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/407 samples
+  Processed 200/407 samples
+  Processed 300/407 samples
+  Processed 400/407 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        407
+  Samples with metrics:     407
+  Total valid pixels:       137734438
+  Mean valid fraction:      36.7203%
+  Median scale ratio:       1.032306
+  Mean scale ratio:         1.026443
+  Mean raw-scale metrics:   abs_rel=0.1412, sq_rel=0.4919, rmse=1.7969, rmse_log=0.2272, a1=0.8654, a2=0.9633, a3=0.9831
+  Mean median-scaled metrics: abs_rel=0.1466, sq_rel=0.5037, rmse=1.7972, rmse_log=0.2271, a1=0.8627, a2=0.9607, a3=0.9825
+  Timing:
+    model_load_seconds:        3.460
+    evaluation_loop_seconds:   201.460
+    total_run_seconds:         205.006
+    metric_samples_per_second: 2.020
+    model_forward_fps:         12.144
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm\weights_14\test_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm\weights_14\test_lite-mono_full_per_sample.csv
+Evaluating test weights_18 2026-06-09T19:00:15
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             test
+  Split samples:     407
+  Inspecting:        407
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm\weights_18
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_18
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/407 samples
+  Processed 200/407 samples
+  Processed 300/407 samples
+  Processed 400/407 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        407
+  Samples with metrics:     407
+  Total valid pixels:       137734438
+  Mean valid fraction:      36.7203%
+  Median scale ratio:       1.026932
+  Mean scale ratio:         1.017232
+  Mean raw-scale metrics:   abs_rel=0.1416, sq_rel=0.4802, rmse=1.7963, rmse_log=0.2270, a1=0.8664, a2=0.9637, a3=0.9829
+  Mean median-scaled metrics: abs_rel=0.1457, sq_rel=0.4806, rmse=1.7944, rmse_log=0.2267, a1=0.8644, a2=0.9602, a3=0.9825
+  Timing:
+    model_load_seconds:        4.271
+    evaluation_loop_seconds:   167.591
+    total_run_seconds:         171.929
+    metric_samples_per_second: 2.429
+    model_forward_fps:         12.259
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm\weights_18\test_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm\weights_18\test_lite-mono_full_per_sample.csv
+Evaluating test weights_22 2026-06-09T19:03:08
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             test
+  Split samples:     407
+  Inspecting:        407
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm\weights_22
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_22
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/407 samples
+  Processed 200/407 samples
+  Processed 300/407 samples
+  Processed 400/407 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        407
+  Samples with metrics:     407
+  Total valid pixels:       137734438
+  Mean valid fraction:      36.7203%
+  Median scale ratio:       1.028659
+  Mean scale ratio:         1.021150
+  Mean raw-scale metrics:   abs_rel=0.1393, sq_rel=0.4801, rmse=1.7838, rmse_log=0.2276, a1=0.8672, a2=0.9641, a3=0.9832
+  Mean median-scaled metrics: abs_rel=0.1455, sq_rel=0.4877, rmse=1.7865, rmse_log=0.2276, a1=0.8658, a2=0.9624, a3=0.9830
+  Timing:
+    model_load_seconds:        4.046
+    evaluation_loop_seconds:   169.690
+    total_run_seconds:         173.802
+    metric_samples_per_second: 2.398
+    model_forward_fps:         12.490
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm\weights_22\test_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm\weights_22\test_lite-mono_full_per_sample.csv
+Evaluating test weights_24 2026-06-09T19:06:04
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             test
+  Split samples:     407
+  Inspecting:        407
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm\weights_24
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_24
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/407 samples
+  Processed 200/407 samples
+  Processed 300/407 samples
+  Processed 400/407 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        407
+  Samples with metrics:     407
+  Total valid pixels:       137734438
+  Mean valid fraction:      36.7203%
+  Median scale ratio:       1.022714
+  Mean scale ratio:         1.013529
+  Mean raw-scale metrics:   abs_rel=0.1384, sq_rel=0.4621, rmse=1.7791, rmse_log=0.2252, a1=0.8694, a2=0.9650, a3=0.9837
+  Mean median-scaled metrics: abs_rel=0.1437, sq_rel=0.4618, rmse=1.7803, rmse_log=0.2255, a1=0.8657, a2=0.9630, a3=0.9836
+  Timing:
+    model_load_seconds:        5.203
+    evaluation_loop_seconds:   166.384
+    total_run_seconds:         171.656
+    metric_samples_per_second: 2.446
+    model_forward_fps:         12.504
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm\weights_24\test_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm\weights_24\test_lite-mono_full_per_sample.csv
+Evaluating test weights_29 2026-06-09T19:08:57
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             test
+  Split samples:     407
+  Inspecting:        407
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm\weights_29
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\models\weights_29
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 100/407 samples
+  Processed 200/407 samples
+  Processed 300/407 samples
+  Processed 400/407 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        407
+  Samples with metrics:     407
+  Total valid pixels:       137734438
+  Mean valid fraction:      36.7203%
+  Median scale ratio:       1.008281
+  Mean scale ratio:         1.002384
+  Mean raw-scale metrics:   abs_rel=0.1399, sq_rel=0.4880, rmse=1.7592, rmse_log=0.2248, a1=0.8733, a2=0.9644, a3=0.9833
+  Mean median-scaled metrics: abs_rel=0.1436, sq_rel=0.4829, rmse=1.7675, rmse_log=0.2253, a1=0.8675, a2=0.9625, a3=0.9832
+  Timing:
+    model_load_seconds:        3.875
+    evaluation_loop_seconds:   166.667
+    total_run_seconds:         170.607
+    metric_samples_per_second: 2.442
+    model_forward_fps:         12.353
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm\weights_29\test_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm\weights_29\test_lite-mono_full_per_sample.csv
+Wrote citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm_summary.csv
+Wrote citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_c\branch_c_rgb_edge_smoothness\results\branch_c_rgb_edge_from_w13_b12_30ep_s001_laptop\checkpoint_sweep\test_confirm_summary.json
+Best raw abs_rel: weights_24 0.13835908045677076 raw a1: 0.8694142852394109
+Best median abs_rel: weights_29 0.1436313112660723 median a1: 0.8675301178769024
+Branch C checkpoint sweep finished 2026-06-09T19:11:49

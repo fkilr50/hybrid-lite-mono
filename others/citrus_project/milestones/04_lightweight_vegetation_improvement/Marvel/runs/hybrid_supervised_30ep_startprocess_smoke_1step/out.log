@@ -1,0 +1,14 @@
+mypretrain loaded.
+Training model named:
+   hybrid_supervised_30ep_startprocess_smoke_1step
+Models and tensorboard events files are saved to:
+   citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs
+Training is using:
+   cuda
+Using split:
+   citrus_prepared
+There are 4275 training items and 560 validation items
+
+Training
+epoch   0 | lr 0.000100 |lr_p 0.000100 | batch      0 | examples/s:   1.6 | loss: 0.23974 | time elapsed: 00h00m10s | time left: 00h00m00s
+Reached --max_train_steps=1; stopping training.

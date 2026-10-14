@@ -1,0 +1,14 @@
+imu0:
+  T_i_b:
+  - [1.0, 0.0, 0.0, 0.0]
+  - [0.0, 1.0, 0.0, 0.0]
+  - [0.0, 0.0, 1.0, 0.0]
+  - [0.0, 0.0, 0.0, 1.0]
+  accelerometer_noise_density: 0.0002276846771973415
+  accelerometer_random_walk: 6.706087584689249e-06
+  gyroscope_noise_density: 0.00010426654551109309
+  gyroscope_random_walk: 3.5636559575381104e-06
+  model: calibrated
+  rostopic: /microstrain/imu/data
+  time_offset: 0.0
+  update_rate: 200.0

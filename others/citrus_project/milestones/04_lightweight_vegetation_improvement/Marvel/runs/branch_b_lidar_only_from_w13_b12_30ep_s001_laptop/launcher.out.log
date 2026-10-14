@@ -1,0 +1,278 @@
+loading model from folder citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs/hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched/models/weights_13
+Loading encoder weights...
+Loading depth weights...
+Skipping Adam weights; optimizer is freshly initialized
+Training model named:
+   branch_b_lidar_only_from_w13_b12_30ep_s001_laptop
+Models and tensorboard events files are saved to:
+   citrus_project/milestones/04_lightweight_vegetation_improvement/Marvel/runs
+Training is using:
+   cuda
+Using split:
+   citrus_prepared
+There are 4275 training items and 560 validation items
+
+Training
+epoch   0 | lr 0.000100 |lr_p 0.000000 | batch      0 | examples/s:   7.9 | loss: 0.00446 | time elapsed: 00h00m04s | time left: 00h00m00s
+epoch   0 | lr 0.000100 |lr_p 0.000000 | batch    100 | examples/s:  41.3 | loss: 0.00500 | time elapsed: 00h05m34s | time left: 09h49m53s
+epoch   0 | lr 0.000100 |lr_p 0.000000 | batch    200 | examples/s:  41.0 | loss: 0.00482 | time elapsed: 00h11m33s | time left: 10h06m02s
+epoch   0 | lr 0.000100 |lr_p 0.000000 | batch    300 | examples/s:  38.7 | loss: 0.00522 | time elapsed: 00h17m11s | time left: 09h54m49s
+Training
+epoch   1 | lr 0.000099 |lr_p 0.000000 | batch      0 | examples/s:  40.3 | loss: 0.00481 | time elapsed: 00h20m32s | time left: 09h55m45s
+epoch   1 | lr 0.000099 |lr_p 0.000000 | batch    100 | examples/s:  39.6 | loss: 0.00445 | time elapsed: 00h25m34s | time left: 09h33m24s
+epoch   1 | lr 0.000099 |lr_p 0.000000 | batch    200 | examples/s:  43.4 | loss: 0.00478 | time elapsed: 00h30m42s | time left: 09h19m11s
+epoch   1 | lr 0.000099 |lr_p 0.000000 | batch    300 | examples/s:  38.4 | loss: 0.00480 | time elapsed: 00h35m44s | time left: 09h06m03s
+Training
+epoch   2 | lr 0.000098 |lr_p 0.000000 | batch      0 | examples/s:  38.3 | loss: 0.00399 | time elapsed: 00h38m34s | time left: 09h00m05s
+epoch   2 | lr 0.000098 |lr_p 0.000000 | batch    100 | examples/s:  37.7 | loss: 0.00421 | time elapsed: 00h43m36s | time left: 08h49m53s
+epoch   2 | lr 0.000098 |lr_p 0.000000 | batch    200 | examples/s:  40.4 | loss: 0.00415 | time elapsed: 00h48m35s | time left: 08h40m24s
+epoch   2 | lr 0.000098 |lr_p 0.000000 | batch    300 | examples/s:  45.6 | loss: 0.00384 | time elapsed: 00h53m35s | time left: 08h31m56s
+Training
+epoch   3 | lr 0.000096 |lr_p 0.000000 | batch      0 | examples/s:  36.5 | loss: 0.00435 | time elapsed: 00h56m26s | time left: 08h27m58s
+epoch   3 | lr 0.000096 |lr_p 0.000000 | batch    100 | examples/s:  42.6 | loss: 0.00438 | time elapsed: 01h01m30s | time left: 08h20m55s
+epoch   3 | lr 0.000096 |lr_p 0.000000 | batch    200 | examples/s:  43.8 | loss: 0.00385 | time elapsed: 01h06m29s | time left: 08h13m34s
+epoch   3 | lr 0.000096 |lr_p 0.000000 | batch    300 | examples/s:  38.2 | loss: 0.00503 | time elapsed: 01h11m29s | time left: 08h06m35s
+Training
+epoch   4 | lr 0.000094 |lr_p 0.000000 | batch      0 | examples/s:  40.2 | loss: 0.00428 | time elapsed: 01h14m19s | time left: 08h03m08s
+epoch   4 | lr 0.000094 |lr_p 0.000000 | batch    100 | examples/s:  42.5 | loss: 0.00434 | time elapsed: 01h19m18s | time left: 07h56m29s
+epoch   4 | lr 0.000094 |lr_p 0.000000 | batch    200 | examples/s:  39.0 | loss: 0.00423 | time elapsed: 01h24m17s | time left: 07h50m02s
+epoch   4 | lr 0.000094 |lr_p 0.000000 | batch    300 | examples/s:  39.9 | loss: 0.00465 | time elapsed: 01h29m23s | time left: 07h44m24s
+Training
+epoch   5 | lr 0.000091 |lr_p 0.000000 | batch      0 | examples/s:  43.7 | loss: 0.00513 | time elapsed: 01h32m15s | time left: 07h41m16s
+epoch   5 | lr 0.000091 |lr_p 0.000000 | batch    100 | examples/s:  40.2 | loss: 0.00425 | time elapsed: 01h37m12s | time left: 07h35m02s
+epoch   5 | lr 0.000091 |lr_p 0.000000 | batch    200 | examples/s:  38.1 | loss: 0.00427 | time elapsed: 01h42m11s | time left: 07h29m00s
+epoch   5 | lr 0.000091 |lr_p 0.000000 | batch    220 | examples/s:  38.8 | loss: 0.00417 | time elapsed: 01h43m16s | time left: 07h28m11s
+epoch   5 | lr 0.000091 |lr_p 0.000000 | batch    300 | examples/s:  39.6 | loss: 0.00422 | time elapsed: 01h47m19s | time left: 07h23m44s
+Training
+epoch   6 | lr 0.000089 |lr_p 0.000000 | batch      0 | examples/s:  45.1 | loss: 0.00394 | time elapsed: 01h50m12s | time left: 07h20m48s
+epoch   6 | lr 0.000089 |lr_p 0.000000 | batch    100 | examples/s:  35.3 | loss: 0.00395 | time elapsed: 01h55m10s | time left: 07h14m58s
+epoch   6 | lr 0.000089 |lr_p 0.000000 | batch    200 | examples/s:  42.9 | loss: 0.00402 | time elapsed: 02h00m15s | time left: 07h09m32s
+epoch   6 | lr 0.000089 |lr_p 0.000000 | batch    300 | examples/s:  40.1 | loss: 0.00390 | time elapsed: 02h05m13s | time left: 07h03m48s
+Training
+epoch   7 | lr 0.000085 |lr_p 0.000000 | batch      0 | examples/s:  39.7 | loss: 0.00408 | time elapsed: 02h08m04s | time left: 07h00m48s
+epoch   7 | lr 0.000085 |lr_p 0.000000 | batch    100 | examples/s:  38.8 | loss: 0.00392 | time elapsed: 02h13m02s | time left: 06h55m09s
+epoch   7 | lr 0.000085 |lr_p 0.000000 | batch    200 | examples/s:  38.1 | loss: 0.00464 | time elapsed: 02h18m01s | time left: 06h49m33s
+epoch   7 | lr 0.000085 |lr_p 0.000000 | batch    300 | examples/s:  39.0 | loss: 0.00391 | time elapsed: 02h23m00s | time left: 06h44m01s
+Training
+epoch   8 | lr 0.000082 |lr_p 0.000000 | batch      0 | examples/s:  40.3 | loss: 0.00461 | time elapsed: 02h25m51s | time left: 06h41m05s
+epoch   8 | lr 0.000082 |lr_p 0.000000 | batch    100 | examples/s:  43.4 | loss: 0.00385 | time elapsed: 02h30m55s | time left: 06h35m50s
+epoch   8 | lr 0.000082 |lr_p 0.000000 | batch    200 | examples/s:  38.6 | loss: 0.00396 | time elapsed: 02h36m03s | time left: 06h30m46s
+epoch   8 | lr 0.000082 |lr_p 0.000000 | batch    300 | examples/s:  39.2 | loss: 0.00375 | time elapsed: 02h41m27s | time left: 06h26m19s
+Training
+epoch   9 | lr 0.000078 |lr_p 0.000000 | batch      0 | examples/s:  37.1 | loss: 0.00388 | time elapsed: 02h44m41s | time left: 06h24m16s
+epoch   9 | lr 0.000078 |lr_p 0.000000 | batch    100 | examples/s:  43.0 | loss: 0.00360 | time elapsed: 02h49m53s | time left: 06h19m16s
+epoch   9 | lr 0.000078 |lr_p 0.000000 | batch    200 | examples/s:  41.8 | loss: 0.00383 | time elapsed: 02h55m08s | time left: 06h14m21s
+epoch   9 | lr 0.000078 |lr_p 0.000000 | batch    300 | examples/s:  43.8 | loss: 0.00402 | time elapsed: 03h00m27s | time left: 06h09m33s
+Training
+epoch  10 | lr 0.000073 |lr_p 0.000000 | batch      0 | examples/s:  42.7 | loss: 0.00359 | time elapsed: 03h03m25s | time left: 06h06m50s
+epoch  10 | lr 0.000073 |lr_p 0.000000 | batch    100 | examples/s:  35.2 | loss: 0.00438 | time elapsed: 03h08m23s | time left: 06h01m20s
+epoch  10 | lr 0.000073 |lr_p 0.000000 | batch    200 | examples/s:  35.8 | loss: 0.00379 | time elapsed: 03h13m21s | time left: 05h55m52s
+epoch  10 | lr 0.000073 |lr_p 0.000000 | batch    300 | examples/s:  38.6 | loss: 0.00411 | time elapsed: 03h18m21s | time left: 05h50m28s
+Training
+epoch  11 | lr 0.000069 |lr_p 0.000000 | batch      0 | examples/s:  46.4 | loss: 0.00445 | time elapsed: 03h21m11s | time left: 05h47m31s
+epoch  11 | lr 0.000069 |lr_p 0.000000 | batch     84 | examples/s:  37.3 | loss: 0.00385 | time elapsed: 03h25m25s | time left: 05h43m03s
+epoch  11 | lr 0.000069 |lr_p 0.000000 | batch    100 | examples/s:  45.1 | loss: 0.00351 | time elapsed: 03h26m17s | time left: 05h42m19s
+epoch  11 | lr 0.000069 |lr_p 0.000000 | batch    200 | examples/s:  37.3 | loss: 0.00312 | time elapsed: 03h31m24s | time left: 05h37m08s
+epoch  11 | lr 0.000069 |lr_p 0.000000 | batch    300 | examples/s:  36.9 | loss: 0.00391 | time elapsed: 03h36m23s | time left: 05h31m46s
+Training
+epoch  12 | lr 0.000064 |lr_p 0.000000 | batch      0 | examples/s:  35.0 | loss: 0.00337 | time elapsed: 03h39m14s | time left: 05h28m52s
+epoch  12 | lr 0.000064 |lr_p 0.000000 | batch    100 | examples/s:  41.9 | loss: 0.00352 | time elapsed: 03h44m13s | time left: 05h23m30s
+epoch  12 | lr 0.000064 |lr_p 0.000000 | batch    200 | examples/s:  36.9 | loss: 0.00415 | time elapsed: 03h49m12s | time left: 05h18m11s
+epoch  12 | lr 0.000064 |lr_p 0.000000 | batch    300 | examples/s:  43.7 | loss: 0.00324 | time elapsed: 03h54m11s | time left: 05h12m52s
+Training
+epoch  13 | lr 0.000060 |lr_p 0.000000 | batch      0 | examples/s:  41.9 | loss: 0.00373 | time elapsed: 03h57m02s | time left: 05h09m58s
+epoch  13 | lr 0.000060 |lr_p 0.000000 | batch    100 | examples/s:  37.7 | loss: 0.00403 | time elapsed: 04h02m06s | time left: 05h04m46s
+epoch  13 | lr 0.000060 |lr_p 0.000000 | batch    200 | examples/s:  47.4 | loss: 0.00408 | time elapsed: 04h07m04s | time left: 04h59m29s
+epoch  13 | lr 0.000060 |lr_p 0.000000 | batch    300 | examples/s:  43.3 | loss: 0.00361 | time elapsed: 04h12m04s | time left: 04h54m13s
+Training
+epoch  14 | lr 0.000055 |lr_p 0.000000 | batch      0 | examples/s:  40.5 | loss: 0.00445 | time elapsed: 04h14m54s | time left: 04h51m19s
+epoch  14 | lr 0.000055 |lr_p 0.000000 | batch    100 | examples/s:  41.9 | loss: 0.00351 | time elapsed: 04h19m51s | time left: 04h46m02s
+epoch  14 | lr 0.000055 |lr_p 0.000000 | batch    200 | examples/s:  43.5 | loss: 0.00338 | time elapsed: 04h24m50s | time left: 04h40m46s
+epoch  14 | lr 0.000055 |lr_p 0.000000 | batch    300 | examples/s:  44.6 | loss: 0.00334 | time elapsed: 04h29m55s | time left: 04h35m39s
+Training
+epoch  15 | lr 0.000050 |lr_p 0.000000 | batch      0 | examples/s:  40.3 | loss: 0.00381 | time elapsed: 04h32m45s | time left: 04h32m45s
+epoch  15 | lr 0.000050 |lr_p 0.000000 | batch    100 | examples/s:  39.9 | loss: 0.00434 | time elapsed: 04h37m43s | time left: 04h27m30s
+epoch  15 | lr 0.000050 |lr_p 0.000000 | batch    200 | examples/s:  36.3 | loss: 0.00363 | time elapsed: 04h42m40s | time left: 04h22m16s
+epoch  15 | lr 0.000050 |lr_p 0.000000 | batch    300 | examples/s:  35.6 | loss: 0.00388 | time elapsed: 04h47m40s | time left: 04h17m04s
+Training
+epoch  16 | lr 0.000045 |lr_p 0.000000 | batch      0 | examples/s:  36.4 | loss: 0.00382 | time elapsed: 04h50m30s | time left: 04h14m12s
+epoch  16 | lr 0.000045 |lr_p 0.000000 | batch    100 | examples/s:  39.5 | loss: 0.00365 | time elapsed: 04h55m28s | time left: 04h08m59s
+epoch  16 | lr 0.000045 |lr_p 0.000000 | batch    200 | examples/s:  40.4 | loss: 0.00334 | time elapsed: 05h00m32s | time left: 04h03m51s
+epoch  16 | lr 0.000045 |lr_p 0.000000 | batch    300 | examples/s:  41.2 | loss: 0.00395 | time elapsed: 05h05m30s | time left: 03h58m39s
+epoch  16 | lr 0.000045 |lr_p 0.000000 | batch    304 | examples/s:  22.3 | loss: 0.00321 | time elapsed: 05h05m59s | time left: 03h58m40s
+Training
+epoch  17 | lr 0.000041 |lr_p 0.000000 | batch      0 | examples/s:  43.9 | loss: 0.00469 | time elapsed: 05h09m34s | time left: 03h56m43s
+epoch  17 | lr 0.000041 |lr_p 0.000000 | batch    100 | examples/s:  42.4 | loss: 0.00329 | time elapsed: 05h23m48s | time left: 03h58m19s
+epoch  17 | lr 0.000041 |lr_p 0.000000 | batch    200 | examples/s:  46.7 | loss: 0.00341 | time elapsed: 05h38m50s | time left: 03h59m59s
+epoch  17 | lr 0.000041 |lr_p 0.000000 | batch    300 | examples/s:  23.7 | loss: 0.00360 | time elapsed: 05h55m03s | time left: 04h01m55s
+Training
+epoch  18 | lr 0.000036 |lr_p 0.000000 | batch      0 | examples/s:  45.1 | loss: 0.00377 | time elapsed: 05h59m19s | time left: 03h59m32s
+epoch  18 | lr 0.000036 |lr_p 0.000000 | batch    100 | examples/s:  32.7 | loss: 0.00377 | time elapsed: 06h04m57s | time left: 03h53m57s
+epoch  18 | lr 0.000036 |lr_p 0.000000 | batch    200 | examples/s:  37.4 | loss: 0.00360 | time elapsed: 06h11m28s | time left: 03h48m54s
+epoch  18 | lr 0.000036 |lr_p 0.000000 | batch    300 | examples/s:  33.7 | loss: 0.00332 | time elapsed: 06h17m46s | time left: 03h43m41s
+Training
+epoch  19 | lr 0.000032 |lr_p 0.000000 | batch      0 | examples/s:  36.0 | loss: 0.00364 | time elapsed: 06h21m18s | time left: 03h40m45s
+epoch  19 | lr 0.000032 |lr_p 0.000000 | batch    100 | examples/s:  38.0 | loss: 0.00367 | time elapsed: 06h26m51s | time left: 03h35m04s
+epoch  19 | lr 0.000032 |lr_p 0.000000 | batch    200 | examples/s:  74.0 | loss: 0.00298 | time elapsed: 06h32m37s | time left: 03h29m30s
+epoch  19 | lr 0.000032 |lr_p 0.000000 | batch    300 | examples/s:  40.8 | loss: 0.00324 | time elapsed: 06h44m14s | time left: 03h26m55s
+Training
+epoch  20 | lr 0.000027 |lr_p 0.000000 | batch      0 | examples/s:  40.8 | loss: 0.00366 | time elapsed: 06h47m57s | time left: 03h23m58s
+epoch  20 | lr 0.000027 |lr_p 0.000000 | batch    100 | examples/s:  34.6 | loss: 0.00272 | time elapsed: 06h53m59s | time left: 03h18m23s
+epoch  20 | lr 0.000027 |lr_p 0.000000 | batch    200 | examples/s:  40.6 | loss: 0.00438 | time elapsed: 06h59m53s | time left: 03h12m44s
+epoch  20 | lr 0.000027 |lr_p 0.000000 | batch    300 | examples/s:  43.6 | loss: 0.00377 | time elapsed: 07h05m33s | time left: 03h06m58s
+Training
+epoch  21 | lr 0.000023 |lr_p 0.000000 | batch      0 | examples/s:  41.6 | loss: 0.00363 | time elapsed: 07h08m48s | time left: 03h03m46s
+epoch  21 | lr 0.000023 |lr_p 0.000000 | batch    100 | examples/s:  37.1 | loss: 0.00299 | time elapsed: 07h14m29s | time left: 02h58m01s
+epoch  21 | lr 0.000023 |lr_p 0.000000 | batch    200 | examples/s:  37.6 | loss: 0.00350 | time elapsed: 07h20m11s | time left: 02h52m15s
+epoch  21 | lr 0.000023 |lr_p 0.000000 | batch    300 | examples/s:  35.1 | loss: 0.00325 | time elapsed: 07h25m51s | time left: 02h46m30s
+Training
+epoch  22 | lr 0.000020 |lr_p 0.000000 | batch      0 | examples/s:  42.1 | loss: 0.00347 | time elapsed: 07h29m14s | time left: 02h43m21s
+epoch  22 | lr 0.000020 |lr_p 0.000000 | batch    100 | examples/s:  40.0 | loss: 0.00332 | time elapsed: 07h34m52s | time left: 02h37m35s
+epoch  22 | lr 0.000020 |lr_p 0.000000 | batch    168 | examples/s:  34.2 | loss: 0.00340 | time elapsed: 07h38m41s | time left: 02h33m39s
+epoch  22 | lr 0.000020 |lr_p 0.000000 | batch    200 | examples/s:  38.1 | loss: 0.00355 | time elapsed: 07h40m34s | time left: 02h31m50s
+epoch  22 | lr 0.000020 |lr_p 0.000000 | batch    300 | examples/s:  34.5 | loss: 0.00317 | time elapsed: 07h46m10s | time left: 02h26m03s
+Training
+epoch  23 | lr 0.000016 |lr_p 0.000000 | batch      0 | examples/s:  38.5 | loss: 0.00338 | time elapsed: 07h49m21s | time left: 02h22m50s
+epoch  23 | lr 0.000016 |lr_p 0.000000 | batch    100 | examples/s:  36.3 | loss: 0.00367 | time elapsed: 07h54m33s | time left: 02h16m57s
+epoch  23 | lr 0.000016 |lr_p 0.000000 | batch    200 | examples/s:  36.4 | loss: 0.00340 | time elapsed: 07h59m39s | time left: 02h11m03s
+epoch  23 | lr 0.000016 |lr_p 0.000000 | batch    300 | examples/s:  42.1 | loss: 0.00394 | time elapsed: 08h04m39s | time left: 02h05m09s
+Training
+epoch  24 | lr 0.000014 |lr_p 0.000000 | batch      0 | examples/s:  37.3 | loss: 0.00295 | time elapsed: 08h07m30s | time left: 02h01m52s
+epoch  24 | lr 0.000014 |lr_p 0.000000 | batch    100 | examples/s:  43.0 | loss: 0.00385 | time elapsed: 08h12m30s | time left: 01h56m00s
+epoch  24 | lr 0.000014 |lr_p 0.000000 | batch    200 | examples/s:  39.4 | loss: 0.00362 | time elapsed: 08h17m30s | time left: 01h50m09s
+epoch  24 | lr 0.000014 |lr_p 0.000000 | batch    300 | examples/s:  39.8 | loss: 0.00294 | time elapsed: 08h22m29s | time left: 01h44m19s
+Training
+epoch  25 | lr 0.000011 |lr_p 0.000000 | batch      0 | examples/s:  37.9 | loss: 0.00313 | time elapsed: 08h25m19s | time left: 01h41m03s
+epoch  25 | lr 0.000011 |lr_p 0.000000 | batch    100 | examples/s:  36.6 | loss: 0.00347 | time elapsed: 08h30m25s | time left: 01h35m16s
+epoch  25 | lr 0.000011 |lr_p 0.000000 | batch    200 | examples/s:  40.0 | loss: 0.00281 | time elapsed: 08h35m24s | time left: 01h29m29s
+epoch  25 | lr 0.000011 |lr_p 0.000000 | batch    300 | examples/s:  39.9 | loss: 0.00339 | time elapsed: 08h40m24s | time left: 01h23m43s
+Training
+epoch  26 | lr 0.000009 |lr_p 0.000000 | batch      0 | examples/s:  36.8 | loss: 0.00339 | time elapsed: 08h43m14s | time left: 01h20m29s
+epoch  26 | lr 0.000009 |lr_p 0.000000 | batch    100 | examples/s:  44.5 | loss: 0.00316 | time elapsed: 08h48m14s | time left: 01h14m45s
+epoch  26 | lr 0.000009 |lr_p 0.000000 | batch    200 | examples/s:  44.6 | loss: 0.00308 | time elapsed: 08h53m13s | time left: 01h09m01s
+epoch  26 | lr 0.000009 |lr_p 0.000000 | batch    300 | examples/s:  35.7 | loss: 0.00397 | time elapsed: 08h58m16s | time left: 01h03m18s
+Training
+epoch  27 | lr 0.000007 |lr_p 0.000000 | batch      0 | examples/s:  46.1 | loss: 0.00384 | time elapsed: 09h01m12s | time left: 01h00m08s
+epoch  27 | lr 0.000007 |lr_p 0.000000 | batch    100 | examples/s:  40.0 | loss: 0.00352 | time elapsed: 09h06m19s | time left: 00h54m27s
+epoch  27 | lr 0.000007 |lr_p 0.000000 | batch    200 | examples/s:  39.7 | loss: 0.00301 | time elapsed: 09h11m18s | time left: 00h48m46s
+epoch  27 | lr 0.000007 |lr_p 0.000000 | batch    300 | examples/s:  41.0 | loss: 0.00327 | time elapsed: 09h16m19s | time left: 00h43m06s
+Training
+epoch  28 | lr 0.000006 |lr_p 0.000000 | batch      0 | examples/s:  39.4 | loss: 0.00334 | time elapsed: 09h19m10s | time left: 00h39m56s
+epoch  28 | lr 0.000006 |lr_p 0.000000 | batch     32 | examples/s:  40.7 | loss: 0.00296 | time elapsed: 09h20m50s | time left: 00h38m08s
+epoch  28 | lr 0.000006 |lr_p 0.000000 | batch    100 | examples/s:  44.6 | loss: 0.00345 | time elapsed: 09h24m15s | time left: 00h34m17s
+epoch  28 | lr 0.000006 |lr_p 0.000000 | batch    200 | examples/s:  42.7 | loss: 0.00353 | time elapsed: 09h29m14s | time left: 00h28m39s
+epoch  28 | lr 0.000006 |lr_p 0.000000 | batch    300 | examples/s:  42.5 | loss: 0.00334 | time elapsed: 09h34m21s | time left: 00h23m02s
+Training
+epoch  29 | lr 0.000005 |lr_p 0.000000 | batch      0 | examples/s:  40.6 | loss: 0.00383 | time elapsed: 09h37m11s | time left: 00h19m54s
+epoch  29 | lr 0.000005 |lr_p 0.000000 | batch    100 | examples/s:  37.4 | loss: 0.00329 | time elapsed: 09h42m10s | time left: 00h14m17s
+epoch  29 | lr 0.000005 |lr_p 0.000000 | batch    200 | examples/s:  38.0 | loss: 0.00345 | time elapsed: 09h47m10s | time left: 00h08m42s
+epoch  29 | lr 0.000005 |lr_p 0.000000 | batch    300 | examples/s:  36.5 | loss: 0.00335 | time elapsed: 09h52m10s | time left: 00h03m07s
+Wrote C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\loss_plots\train_loss_curves.png
+Wrote C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\loss_plots\val_loss_curves.png
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             val
+  Split samples:     564
+  Inspecting:        564
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\models\weights_29
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 50/564 samples
+  Processed 100/564 samples
+  Processed 150/564 samples
+  Processed 200/564 samples
+  Processed 250/564 samples
+  Processed 300/564 samples
+  Processed 350/564 samples
+  Processed 400/564 samples
+  Processed 450/564 samples
+  Processed 500/564 samples
+  Processed 550/564 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        564
+  Samples with metrics:     564
+  Total valid pixels:       193505450
+  Mean valid fraction:      37.2282%
+  Median scale ratio:       0.988088
+  Mean scale ratio:         0.995045
+  Mean raw-scale metrics:   abs_rel=0.1561, sq_rel=0.5681, rmse=1.5415, rmse_log=0.2359, a1=0.8667, a2=0.9599, a3=0.9807
+  Mean median-scaled metrics: abs_rel=0.1580, sq_rel=0.5606, rmse=1.5573, rmse_log=0.2360, a1=0.8640, a2=0.9607, a3=0.9812
+  Timing:
+    model_load_seconds:        7.734
+    evaluation_loop_seconds:   90.978
+    total_run_seconds:         98.789
+    metric_samples_per_second: 6.199
+    model_forward_fps:         22.893
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\val_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\val_lite-mono_full_per_sample.csv
+Citrus Lite-Mono baseline evaluator
+  Dataset workspace: C:\Proj\lite-Mono\citrus_project\dataset_workspace
+  Prepared dataset:  C:\Proj\lite-Mono\citrus_project\dataset_workspace\prepared_training_dataset
+  Split:             test
+  Split samples:     407
+  Inspecting:        407
+  Manifest rows:     5282
+  Model inference:   enabled
+  Summary only:      True
+  Output dir:        C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop
+  Weights folder:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\models\weights_29
+  Model variant:     lite-mono
+  Device:            cuda
+  Feed size:         width=640, height=192
+  Depth range:       0.1..100.0 m
+  Eval depth range:  0.001..80.0 m
+  Parameters:        total=3074747 (3.075M), encoder=2848120, decoder=226627
+  Checkpoint size:   11.83 MiB
+  Processed 50/407 samples
+  Processed 100/407 samples
+  Processed 150/407 samples
+  Processed 200/407 samples
+  Processed 250/407 samples
+  Processed 300/407 samples
+  Processed 350/407 samples
+  Processed 400/407 samples
+
+Aggregate evaluation summary
+  Averaging rule: per-image metric mean, matching original Lite-Mono evaluation style
+  Requested samples:        407
+  Samples with metrics:     407
+  Total valid pixels:       137734438
+  Mean valid fraction:      36.7203%
+  Median scale ratio:       1.007822
+  Mean scale ratio:         1.002330
+  Mean raw-scale metrics:   abs_rel=0.1398, sq_rel=0.4884, rmse=1.7592, rmse_log=0.2248, a1=0.8735, a2=0.9644, a3=0.9833
+  Mean median-scaled metrics: abs_rel=0.1435, sq_rel=0.4834, rmse=1.7675, rmse_log=0.2252, a1=0.8678, a2=0.9625, a3=0.9832
+  Timing:
+    model_load_seconds:        2.667
+    evaluation_loop_seconds:   77.477
+    total_run_seconds:         80.213
+    metric_samples_per_second: 5.253
+    model_forward_fps:         17.261
+
+Saved result files
+  Summary JSON:    C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\test_lite-mono_full_summary.json
+  Per-sample CSV:  C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\test_lite-mono_full_per_sample.csv
+Wrote C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\visuals\branch_a_w13_vs_branch_b_val\val_phase2_comparison_summary.json
+Wrote C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\visuals\branch_a_w13_vs_branch_b_val\val_phase2_comparison_summary.csv
+Panel: C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\visuals\branch_a_w13_vs_branch_b_val\bad_index_0342_comparison.png
+Panel: C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\visuals\branch_a_w13_vs_branch_b_val\typical_index_0518_comparison.png
+Panel: C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\visuals\branch_a_w13_vs_branch_b_val\good_index_0045_comparison.png
+Wrote C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\visuals\branch_a_w13_vs_branch_b_test\test_phase2_comparison_summary.json
+Wrote C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\visuals\branch_a_w13_vs_branch_b_test\test_phase2_comparison_summary.csv
+Panel: C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\visuals\branch_a_w13_vs_branch_b_test\bad_index_0105_comparison.png
+Panel: C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\visuals\branch_a_w13_vs_branch_b_test\typical_index_0253_comparison.png
+Panel: C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\branch_b\branch_b_lidar_only_continued\results\branch_b_lidar_only_from_w13_b12_30ep_s001_laptop\visuals\branch_a_w13_vs_branch_b_test\good_index_0314_comparison.png

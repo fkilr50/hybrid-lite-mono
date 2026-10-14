@@ -1,0 +1,44 @@
+[
+  {
+    "role": "bad",
+    "index": 343,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-28-44_4_bag_1689715746751200216.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\\visuals\\baseline_vs_hybrid_test\\bad_index_0343_comparison.png",
+    "baseline_scale_ratio": 0.6171341678007591,
+    "phase2_scale_ratio": 0.6652558928511585,
+    "baseline_median_scaled_abs_rel": 1.6434816808494037,
+    "baseline_median_scaled_a1": 0.026117501859206634,
+    "phase2_median_scaled_abs_rel": 0.5330673353915244,
+    "phase2_median_scaled_a1": 0.07434611307140936,
+    "phase2_minus_baseline_abs_rel": -1.1104143454578792,
+    "phase2_minus_baseline_a1": 0.04822861121220272
+  },
+  {
+    "role": "typical",
+    "index": 113,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-26-49_0_bag_1689715609736062840.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\\visuals\\baseline_vs_hybrid_test\\typical_index_0113_comparison.png",
+    "baseline_scale_ratio": 3.565069557632804,
+    "phase2_scale_ratio": 1.0376172320585448,
+    "baseline_median_scaled_abs_rel": 0.2010323530208119,
+    "baseline_median_scaled_a1": 0.7837124593365644,
+    "phase2_median_scaled_abs_rel": 0.13991135440097335,
+    "phase2_median_scaled_a1": 0.8391645049395215,
+    "phase2_minus_baseline_abs_rel": -0.06112099861983855,
+    "phase2_minus_baseline_a1": 0.055452045602957134
+  },
+  {
+    "role": "good",
+    "index": 57,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-29-41_6_bag_1689715805637258776.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\\visuals\\baseline_vs_hybrid_test\\good_index_0057_comparison.png",
+    "baseline_scale_ratio": 3.5667430726037246,
+    "phase2_scale_ratio": 1.0438238730886216,
+    "baseline_median_scaled_abs_rel": 0.11032931569185674,
+    "baseline_median_scaled_a1": 0.8960946022603308,
+    "phase2_median_scaled_abs_rel": 0.09387976369550319,
+    "phase2_median_scaled_a1": 0.9173946560777297,
+    "phase2_minus_baseline_abs_rel": -0.016449551996353548,
+    "phase2_minus_baseline_a1": 0.021300053817398967
+  }
+]

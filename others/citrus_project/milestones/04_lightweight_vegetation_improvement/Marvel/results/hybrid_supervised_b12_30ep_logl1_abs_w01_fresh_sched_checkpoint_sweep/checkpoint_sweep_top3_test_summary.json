@@ -1,0 +1,35 @@
+[
+    {
+        "checkpoint":  "weights_13",
+        "epoch":  13,
+        "val_raw_abs_rel":  0.1716044286258791,
+        "val_raw_a1":  0.81308089168926612,
+        "test_raw_abs_rel":  0.16196748605185005,
+        "test_raw_a1":  0.81489056722960829,
+        "test_median_abs_rel":  0.16766215859063088,
+        "test_median_a1":  0.815918845951045,
+        "test_median_scale_ratio":  1.0568631853009962
+    },
+    {
+        "checkpoint":  "weights_10",
+        "epoch":  10,
+        "val_raw_abs_rel":  0.17822131561689047,
+        "val_raw_a1":  0.81521796963461624,
+        "test_raw_abs_rel":  0.16441322422097843,
+        "test_raw_a1":  0.82268531412167611,
+        "test_median_abs_rel":  0.17080479144485183,
+        "test_median_a1":  0.81159100802869955,
+        "test_median_scale_ratio":  1.0223455684788969
+    },
+    {
+        "checkpoint":  "weights_8",
+        "epoch":  8,
+        "val_raw_abs_rel":  0.177787378257246,
+        "val_raw_a1":  0.81164794014082964,
+        "test_raw_abs_rel":  0.16687053861270018,
+        "test_raw_a1":  0.81934744270222315,
+        "test_median_abs_rel":  0.17247950328633066,
+        "test_median_a1":  0.804242712413222,
+        "test_median_scale_ratio":  1.00380459174081
+    }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "role": "bad",
+    "index": 344,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-28-44_4_bag_1689715746858666840.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched_checkpoint_sweep\\weights_13_visual_comparisons\\plain_vs_weights13_test\\bad_index_0344_comparison.png",
+    "baseline_scale_ratio": 0.49229716377046484,
+    "phase2_scale_ratio": 0.6232030770792966,
+    "baseline_median_scaled_abs_rel": 1.3006200930687262,
+    "baseline_median_scaled_a1": 0.06404083576863163,
+    "phase2_median_scaled_abs_rel": 0.44725880678374785,
+    "phase2_median_scaled_a1": 0.07256974393964752,
+    "phase2_minus_baseline_abs_rel": -0.8533612862849783,
+    "phase2_minus_baseline_a1": 0.008528908171015884
+  },
+  {
+    "role": "typical",
+    "index": 373,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-28-44_4_bag_1689715749746883672.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched_checkpoint_sweep\\weights_13_visual_comparisons\\plain_vs_weights13_test\\typical_index_0373_comparison.png",
+    "baseline_scale_ratio": 2.8265967636923497,
+    "phase2_scale_ratio": 0.9408997046761052,
+    "baseline_median_scaled_abs_rel": 0.7789634273103587,
+    "baseline_median_scaled_a1": 0.5098832102540747,
+    "phase2_median_scaled_abs_rel": 0.1693866318736465,
+    "phase2_median_scaled_a1": 0.8205244152379713,
+    "phase2_minus_baseline_abs_rel": -0.6095767954367122,
+    "phase2_minus_baseline_a1": 0.3106412049838966
+  },
+  {
+    "role": "good",
+    "index": 314,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-28-44_4_bag_1689715743852612760.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched_checkpoint_sweep\\weights_13_visual_comparisons\\plain_vs_weights13_test\\good_index_0314_comparison.png",
+    "baseline_scale_ratio": 3.406975779347716,
+    "phase2_scale_ratio": 1.0247758010459607,
+    "baseline_median_scaled_abs_rel": 0.1224697733706715,
+    "baseline_median_scaled_a1": 0.8893544613421248,
+    "phase2_median_scaled_abs_rel": 0.09461539856115213,
+    "phase2_median_scaled_a1": 0.9380106652891934,
+    "phase2_minus_baseline_abs_rel": -0.02785437480951937,
+    "phase2_minus_baseline_a1": 0.0486562039470686
+  }
+]

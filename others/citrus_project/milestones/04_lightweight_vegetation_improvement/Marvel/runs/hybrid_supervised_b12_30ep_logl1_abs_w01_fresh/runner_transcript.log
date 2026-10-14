@@ -1,0 +1,19 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260520083634
+Username: LAPTOP-COO4RPDB\user
+RunAs User: LAPTOP-COO4RPDB\user
+Configuration Name: 
+Machine: LAPTOP-COO4RPDB (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Proj\lite-Mono\run_hybrid30.ps1
+Process ID: 40456
+PSVersion: 5.1.26100.8457
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8457
+BuildVersion: 10.0.26100.8457
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Proj\lite-Mono\citrus_project\milestones\04_lightweight_vegetation_improvement\Marvel\runs\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh\runner_transcript.log

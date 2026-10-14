@@ -1,0 +1,53 @@
+[
+  {
+    "role": "good",
+    "index": 44,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-33-03_13_bag_1689715987936812600.png",
+    "dense_rel": "prepared_training_dataset/dense_lidar_npz/zed_2023-07-18-14-33-03_13_bag_1689715987936812600.npz",
+    "valid_mask_rel": "prepared_training_dataset/dense_lidar_valid_mask_npz/zed_2023-07-18-14-33-03_13_bag_1689715987936812600.npz",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\\visuals\\single_model_val\\good_index_0044_median_scaled_a1_0.919.png",
+    "valid_fraction": 0.3622862413194444,
+    "scale_ratio": 1.0038043729389525,
+    "raw_abs_rel": 0.0925271928946006,
+    "raw_a1": 0.9182917369258093,
+    "median_scaled_abs_rel": 0.09240597550144297,
+    "median_scaled_a1": 0.9193400083262699,
+    "display_depth_min_m": 0.9568502008914948,
+    "display_depth_max_m": 11.280821990966796,
+    "error_display_max_m": 2.4296022510528563
+  },
+  {
+    "role": "typical",
+    "index": 514,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-33-32_14_bag_1689716034955805464.png",
+    "dense_rel": "prepared_training_dataset/dense_lidar_npz/zed_2023-07-18-14-33-32_14_bag_1689716034955805464.npz",
+    "valid_mask_rel": "prepared_training_dataset/dense_lidar_valid_mask_npz/zed_2023-07-18-14-33-32_14_bag_1689716034955805464.npz",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\\visuals\\single_model_val\\typical_index_0514_median_scaled_a1_0.801.png",
+    "valid_fraction": 0.33534722222222224,
+    "scale_ratio": 1.023158753885932,
+    "raw_abs_rel": 0.17147434172051185,
+    "raw_a1": 0.7787358925243322,
+    "median_scaled_abs_rel": 0.16437438117746397,
+    "median_scaled_a1": 0.8009616380202941,
+    "display_depth_min_m": 0.9231736767292024,
+    "display_depth_max_m": 18.25954113006592,
+    "error_display_max_m": 3.664471054077164
+  },
+  {
+    "role": "bad",
+    "index": 200,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-33-03_13_bag_1689716003555403832.png",
+    "dense_rel": "prepared_training_dataset/dense_lidar_npz/zed_2023-07-18-14-33-03_13_bag_1689716003555403832.npz",
+    "valid_mask_rel": "prepared_training_dataset/dense_lidar_valid_mask_npz/zed_2023-07-18-14-33-03_13_bag_1689716003555403832.npz",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\results\\hybrid_supervised_b12_30ep_logl1_abs_w01_fresh_sched\\visuals\\single_model_val\\bad_index_0200_median_scaled_a1_0.176.png",
+    "valid_fraction": 0.3760221354166667,
+    "scale_ratio": 0.7277527706831282,
+    "raw_abs_rel": 0.34432175263150844,
+    "raw_a1": 0.6982818821383844,
+    "median_scaled_abs_rel": 0.40609861804928693,
+    "median_scaled_a1": 0.17565259045079673,
+    "display_depth_min_m": 0.5953759670257568,
+    "display_depth_max_m": 11.470536918640134,
+    "error_display_max_m": 5.829777622222898
+  }
+]

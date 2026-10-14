@@ -1,0 +1,44 @@
+[
+  {
+    "role": "bad",
+    "index": 344,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-28-44_4_bag_1689715746858666840.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\branch_c_rgb_edge_smoothness\\results\\branch_c_rgb_edge_from_w13_b12_2ep_s001_laptop_v2\\visuals\\baseline_vs_branch_c_test\\bad_index_0344_comparison.png",
+    "baseline_scale_ratio": 0.49229716377046484,
+    "phase2_scale_ratio": 0.6154312593042972,
+    "baseline_median_scaled_abs_rel": 1.3006200930687262,
+    "baseline_median_scaled_a1": 0.06404083576863163,
+    "phase2_median_scaled_abs_rel": 0.47398159586463245,
+    "phase2_median_scaled_a1": 0.04673197986533981,
+    "phase2_minus_baseline_abs_rel": -0.8266384972040937,
+    "phase2_minus_baseline_a1": -0.017308855903291828
+  },
+  {
+    "role": "typical",
+    "index": 285,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-28-44_4_bag_1689715740951713144.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\branch_c_rgb_edge_smoothness\\results\\branch_c_rgb_edge_from_w13_b12_2ep_s001_laptop_v2\\visuals\\baseline_vs_branch_c_test\\typical_index_0285_comparison.png",
+    "baseline_scale_ratio": 2.623765273817653,
+    "phase2_scale_ratio": 0.9298548743350813,
+    "baseline_median_scaled_abs_rel": 0.9879206849713443,
+    "baseline_median_scaled_a1": 0.3951509580305076,
+    "phase2_median_scaled_abs_rel": 0.21975816303920706,
+    "phase2_median_scaled_a1": 0.8525494814857373,
+    "phase2_minus_baseline_abs_rel": -0.7681625219321373,
+    "phase2_minus_baseline_a1": 0.4573985234552297
+  },
+  {
+    "role": "good",
+    "index": 407,
+    "rgb_rel": "extracted_rgbd/zed2i_zed_node_left_image_rect_color/zed_2023-07-18-14-28-44_4_bag_1689715753147296952.png",
+    "panel_path": "C:\\Proj\\lite-Mono\\citrus_project\\milestones\\04_lightweight_vegetation_improvement\\Marvel\\branch_c_rgb_edge_smoothness\\results\\branch_c_rgb_edge_from_w13_b12_2ep_s001_laptop_v2\\visuals\\baseline_vs_branch_c_test\\good_index_0407_comparison.png",
+    "baseline_scale_ratio": 3.6588339224372706,
+    "phase2_scale_ratio": 1.0291428793892214,
+    "baseline_median_scaled_abs_rel": 0.21062029495564288,
+    "baseline_median_scaled_a1": 0.8701202505601024,
+    "phase2_median_scaled_abs_rel": 0.08216099278658347,
+    "phase2_median_scaled_a1": 0.9436331214850715,
+    "phase2_minus_baseline_abs_rel": -0.12845930216905943,
+    "phase2_minus_baseline_a1": 0.07351287092496905
+  }
+]

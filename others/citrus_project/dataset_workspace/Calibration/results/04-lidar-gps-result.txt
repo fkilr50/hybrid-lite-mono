@@ -1,0 +1,8 @@
+parent frame: lidar (Velodyne)
+child frame: GPS-RTK (origin located at the center of the GPS receiver on the robot)
+
+# This result is measured and computed directly from CAD models of the robot and the mounting board.
+x, y, z = -0.220, 0.000, 0.153
+
+# orientation is omitted since it is not meaningful; GPS-RTK only provides 3D positioning data, rather than full 6D poses, because it has only one receiver on the robot.
+
